@@ -1,0 +1,2789 @@
+
+
+============================== 21:46:37.611995 | a388c0d1-8d18-4229-9515-e4b77fa3cbe7 ==============================
+[0m21:46:37.611995 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:46:37.612988 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt clean', 'send_anonymous_usage_stats': 'False'}
+[0m21:46:37.843312 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+        The default package install path has changed from `dbt_modules` to
+`dbt_packages`.         Please update `clean-targets` in `dbt_project.yml` and
+check `.gitignore` as well.         Or, set `packages-install-path: dbt_modules`
+if you'd like to keep the current value.
+[0m21:46:37.848272 [debug] [MainThread]: Command `dbt clean` succeeded at 21:46:37.848272 after 0.38 seconds
+[0m21:46:37.849272 [debug] [MainThread]: Flushing usage events
+
+
+============================== 21:46:47.958836 | 97d227ad-2077-46c6-aa7e-43f66f48c07e ==============================
+[0m21:46:47.958836 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:46:47.960829 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m21:46:48.219705 [debug] [MainThread]: Set downloads directory='C:\Users\Omkar\AppData\Local\Temp\dbt-downloads-f1qncu03'
+[0m21:46:48.220700 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m21:46:48.997325 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m21:46:48.998328 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m21:46:49.307945 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m21:46:49.323947 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/calogica/dbt_expectations.json
+[0m21:46:49.481948 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/calogica/dbt_expectations.json 200
+[0m21:46:49.487945 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json
+[0m21:46:49.815913 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json 200
+[0m21:46:49.852926 [info ] [MainThread]: Updating lock file in file path: D:\DataEngineering_Projects\simple_dbt_project/package-lock.yml
+[0m21:46:49.865159 [debug] [MainThread]: Set downloads directory='C:\Users\Omkar\AppData\Local\Temp\dbt-downloads-m_wikzmj'
+[0m21:46:49.878155 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m21:46:52.499178 [info ] [MainThread]: Installed from version 1.1.1
+[0m21:46:52.500178 [info ] [MainThread]: Updated version available: 1.2.0
+[0m21:46:52.501179 [info ] [MainThread]: Installing calogica/dbt_expectations
+[0m21:46:54.594682 [info ] [MainThread]: Installed from version 0.9.0
+[0m21:46:54.595682 [info ] [MainThread]: Updated version available: 0.10.3
+[0m21:46:54.596681 [info ] [MainThread]: Installing calogica/dbt_date
+[0m21:46:55.018748 [info ] [MainThread]: Installed from version 0.8.1
+[0m21:46:55.019865 [info ] [MainThread]: Updated version available: 0.10.1
+[0m21:46:55.020885 [info ] [MainThread]: 
+[0m21:46:55.021922 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils', 'calogica/dbt_expectations', 'calogica/dbt_date']                 
+Update your versions in packages.yml, then run dbt deps
+[0m21:46:55.024938 [debug] [MainThread]: Command `dbt deps` succeeded at 21:46:55.024938 after 7.18 seconds
+[0m21:46:55.026939 [debug] [MainThread]: Flushing usage events
+
+
+============================== 21:47:07.393275 | 2e375f48-b92c-4475-93f2-8a984578a8a7 ==============================
+[0m21:47:07.393275 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:47:07.395283 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt snapshot', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m21:47:08.163906 [info ] [MainThread]: Registered adapter: duckdb=1.8.1
+[0m21:47:08.581608 [debug] [MainThread]: checksum: ebc509fb14e151ea268e89b60fd5abf912ed99129f87516462718fa2f14f4838, vars: {}, profile: , target: , version: 1.8.1
+[0m21:47:08.583608 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m21:47:15.106197 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m21:47:15.273195 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'non_existent_table' in the 'models' section of file 'models\marts\marketing\marketing.yml'
+[0m21:47:15.534202 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.sde_dbt_tutorial.unique_non_existent_table_non_existent.1fe469feba' (models\marts\marketing\marketing.yml) depends on a node named 'non_existent_table' in package '' which was not found
+[0m21:47:16.264453 [info ] [MainThread]: Found 7 models, 1 snapshot, 11 data tests, 3 sources, 1 exposure, 756 macros
+[0m21:47:16.267456 [info ] [MainThread]: 
+[0m21:47:16.269455 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m21:47:16.271455 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt'
+[0m21:47:16.456937 [debug] [ThreadPool]: Using duckdb connection "list_dbt"
+[0m21:47:16.457898 [debug] [ThreadPool]: On list_dbt: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where catalog_name = '"dbt"'
+    
+  
+  
+[0m21:47:16.457898 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:47:16.541195 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:16.546190 [debug] [ThreadPool]: On list_dbt: Close
+[0m21:47:16.551191 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt, now create_dbt_snapshots)
+[0m21:47:16.552189 [debug] [ThreadPool]: Creating schema "database: "dbt"
+schema: "snapshots"
+"
+[0m21:47:16.564229 [debug] [ThreadPool]: Using duckdb connection "create_dbt_snapshots"
+[0m21:47:16.564229 [debug] [ThreadPool]: On create_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "create_dbt_snapshots"} */
+
+    
+        select type from duckdb_databases()
+        where database_name='dbt'
+        and type='sqlite'
+    
+  
+[0m21:47:16.565234 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:47:16.581174 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:16.583215 [debug] [ThreadPool]: Using duckdb connection "create_dbt_snapshots"
+[0m21:47:16.584192 [debug] [ThreadPool]: On create_dbt_snapshots: BEGIN
+[0m21:47:16.585177 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:16.586176 [debug] [ThreadPool]: Using duckdb connection "create_dbt_snapshots"
+[0m21:47:16.587174 [debug] [ThreadPool]: On create_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "create_dbt_snapshots"} */
+
+    
+    
+        create schema if not exists "dbt"."snapshots"
+    
+[0m21:47:16.588174 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:16.589174 [debug] [ThreadPool]: On create_dbt_snapshots: COMMIT
+[0m21:47:16.590172 [debug] [ThreadPool]: Using duckdb connection "create_dbt_snapshots"
+[0m21:47:16.591174 [debug] [ThreadPool]: On create_dbt_snapshots: COMMIT
+[0m21:47:16.623656 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:16.624657 [debug] [ThreadPool]: On create_dbt_snapshots: Close
+[0m21:47:16.702481 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt_main'
+[0m21:47:16.711521 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m21:47:16.712523 [debug] [ThreadPool]: On list_dbt_main: BEGIN
+[0m21:47:16.713523 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:47:16.730485 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:16.730485 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m21:47:16.731523 [debug] [ThreadPool]: On list_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_main"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'main'
+    and table_catalog = 'dbt'
+  
+[0m21:47:16.776521 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:16.778500 [debug] [ThreadPool]: On list_dbt_main: ROLLBACK
+[0m21:47:16.780526 [debug] [ThreadPool]: Failed to rollback 'list_dbt_main'
+[0m21:47:16.781485 [debug] [ThreadPool]: On list_dbt_main: Close
+[0m21:47:16.784485 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_main, now list_dbt_snapshots)
+[0m21:47:16.788522 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m21:47:16.789521 [debug] [ThreadPool]: On list_dbt_snapshots: BEGIN
+[0m21:47:16.790485 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:47:16.797481 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:16.799482 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m21:47:16.800484 [debug] [ThreadPool]: On list_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_snapshots"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'snapshots'
+    and table_catalog = 'dbt'
+  
+[0m21:47:16.845520 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:16.848522 [debug] [ThreadPool]: On list_dbt_snapshots: ROLLBACK
+[0m21:47:16.849483 [debug] [ThreadPool]: Failed to rollback 'list_dbt_snapshots'
+[0m21:47:16.850525 [debug] [ThreadPool]: On list_dbt_snapshots: Close
+[0m21:47:16.854012 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:16.855027 [debug] [MainThread]: On master: BEGIN
+[0m21:47:16.855027 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:47:16.863028 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:16.864028 [debug] [MainThread]: On master: COMMIT
+[0m21:47:16.865023 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:16.865023 [debug] [MainThread]: On master: COMMIT
+[0m21:47:16.867026 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:16.868025 [debug] [MainThread]: On master: Close
+[0m21:47:16.870004 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:47:16.871004 [info ] [MainThread]: 
+[0m21:47:16.887992 [debug] [Thread-1 (]: Began running node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m21:47:16.889993 [info ] [Thread-1 (]: 1 of 1 START snapshot snapshots.customers_snapshot ............................. [RUN]
+[0m21:47:16.891014 [debug] [Thread-1 (]: Acquiring new duckdb connection 'snapshot.sde_dbt_tutorial.customers_snapshot'
+[0m21:47:16.892036 [debug] [Thread-1 (]: Began compiling node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m21:47:16.903990 [debug] [Thread-1 (]: Began executing node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m21:47:16.972031 [debug] [Thread-1 (]: Writing runtime sql for node "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m21:47:16.975658 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m21:47:16.976656 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: BEGIN
+[0m21:47:16.977654 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:47:16.985658 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:16.986656 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m21:47:16.986656 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+
+      
+  
+    
+    
+
+    create  table
+      "dbt"."snapshots"."customers_snapshot"
+  
+    as (
+      
+
+    select *,
+        md5(coalesce(cast(customer_id as varchar ), '')
+         || '|' || coalesce(cast(datetime_updated as varchar ), '')
+        ) as dbt_scd_id,
+        datetime_updated as dbt_updated_at,
+        datetime_updated as dbt_valid_from,
+        nullif(datetime_updated, datetime_updated) as dbt_valid_to
+    from (
+        
+
+
+
+select * from './raw_data/customers.csv'
+
+    ) sbq
+
+
+
+    );
+  
+  
+  
+[0m21:47:17.017656 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:17.044658 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: COMMIT
+[0m21:47:17.045657 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m21:47:17.045657 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: COMMIT
+[0m21:47:17.072048 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:17.074726 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: Close
+[0m21:47:17.139603 [info ] [Thread-1 (]: 1 of 1 OK snapshotted snapshots.customers_snapshot ............................. [[32mOK[0m in 0.25s]
+[0m21:47:17.141567 [debug] [Thread-1 (]: Finished running node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m21:47:17.143564 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:17.144562 [debug] [MainThread]: On master: BEGIN
+[0m21:47:17.144562 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:47:17.159378 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:17.160371 [debug] [MainThread]: On master: COMMIT
+[0m21:47:17.161330 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:17.162330 [debug] [MainThread]: On master: COMMIT
+[0m21:47:17.163331 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:17.164330 [debug] [MainThread]: On master: Close
+[0m21:47:17.166334 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:47:17.167335 [debug] [MainThread]: Connection 'create_dbt_snapshots' was properly closed.
+[0m21:47:17.168329 [debug] [MainThread]: Connection 'list_dbt_snapshots' was properly closed.
+[0m21:47:17.169335 [debug] [MainThread]: Connection 'snapshot.sde_dbt_tutorial.customers_snapshot' was properly closed.
+[0m21:47:17.169335 [info ] [MainThread]: 
+[0m21:47:17.170334 [info ] [MainThread]: Finished running 1 snapshot in 0 hours 0 minutes and 0.90 seconds (0.90s).
+[0m21:47:17.172331 [debug] [MainThread]: Command end result
+[0m21:47:17.303332 [info ] [MainThread]: 
+[0m21:47:17.305331 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:47:17.306329 [info ] [MainThread]: 
+[0m21:47:17.307331 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:47:17.309371 [debug] [MainThread]: Command `dbt snapshot` succeeded at 21:47:17.309371 after 10.02 seconds
+[0m21:47:17.310331 [debug] [MainThread]: Flushing usage events
+
+
+============================== 21:47:26.179227 | f33a8f62-cf19-4a3b-9e18-74a98c298ce6 ==============================
+[0m21:47:26.179227 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:47:26.181231 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m21:47:26.590002 [info ] [MainThread]: Registered adapter: duckdb=1.8.1
+[0m21:47:26.631053 [debug] [MainThread]: checksum: ebc509fb14e151ea268e89b60fd5abf912ed99129f87516462718fa2f14f4838, vars: {}, profile: , target: , version: 1.8.1
+[0m21:47:27.412636 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:47:27.412636 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:47:27.838843 [info ] [MainThread]: Found 7 models, 1 snapshot, 11 data tests, 3 sources, 1 exposure, 756 macros
+[0m21:47:27.843843 [info ] [MainThread]: 
+[0m21:47:27.844844 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m21:47:27.854249 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt'
+[0m21:47:27.958762 [debug] [ThreadPool]: Using duckdb connection "list_dbt"
+[0m21:47:27.959802 [debug] [ThreadPool]: On list_dbt: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where catalog_name = '"dbt"'
+    
+  
+  
+[0m21:47:27.960760 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:47:27.972711 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:27.974713 [debug] [ThreadPool]: On list_dbt: Close
+[0m21:47:27.977716 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt, now create_dbt_main)
+[0m21:47:27.978716 [debug] [ThreadPool]: Creating schema "database: "dbt"
+schema: "main"
+"
+[0m21:47:27.989756 [debug] [ThreadPool]: Using duckdb connection "create_dbt_main"
+[0m21:47:27.989756 [debug] [ThreadPool]: On create_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "create_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where database_name='dbt'
+        and type='sqlite'
+    
+  
+[0m21:47:27.990714 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:47:27.999709 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:28.001708 [debug] [ThreadPool]: Using duckdb connection "create_dbt_main"
+[0m21:47:28.002707 [debug] [ThreadPool]: On create_dbt_main: BEGIN
+[0m21:47:28.003708 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:28.004708 [debug] [ThreadPool]: Using duckdb connection "create_dbt_main"
+[0m21:47:28.004708 [debug] [ThreadPool]: On create_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "create_dbt_main"} */
+
+    
+    
+        create schema if not exists "dbt"."main"
+    
+[0m21:47:28.005707 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:28.007708 [debug] [ThreadPool]: On create_dbt_main: COMMIT
+[0m21:47:28.008708 [debug] [ThreadPool]: Using duckdb connection "create_dbt_main"
+[0m21:47:28.008708 [debug] [ThreadPool]: On create_dbt_main: COMMIT
+[0m21:47:28.009709 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:28.010708 [debug] [ThreadPool]: On create_dbt_main: Close
+[0m21:47:28.015712 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt_main'
+[0m21:47:28.071707 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m21:47:28.072708 [debug] [ThreadPool]: On list_dbt_main: BEGIN
+[0m21:47:28.073708 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:47:28.081712 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:28.082709 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m21:47:28.083710 [debug] [ThreadPool]: On list_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_main"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'main'
+    and table_catalog = 'dbt'
+  
+[0m21:47:28.130242 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:28.132245 [debug] [ThreadPool]: On list_dbt_main: ROLLBACK
+[0m21:47:28.133251 [debug] [ThreadPool]: Failed to rollback 'list_dbt_main'
+[0m21:47:28.134247 [debug] [ThreadPool]: On list_dbt_main: Close
+[0m21:47:28.137242 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_main, now list_dbt_snapshots)
+[0m21:47:28.141242 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m21:47:28.142243 [debug] [ThreadPool]: On list_dbt_snapshots: BEGIN
+[0m21:47:28.143245 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:47:28.151247 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:28.152244 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m21:47:28.152244 [debug] [ThreadPool]: On list_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_snapshots"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'snapshots'
+    and table_catalog = 'dbt'
+  
+[0m21:47:28.194247 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:28.201245 [debug] [ThreadPool]: On list_dbt_snapshots: ROLLBACK
+[0m21:47:28.202244 [debug] [ThreadPool]: Failed to rollback 'list_dbt_snapshots'
+[0m21:47:28.203246 [debug] [ThreadPool]: On list_dbt_snapshots: Close
+[0m21:47:28.206995 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:28.208008 [debug] [MainThread]: On master: BEGIN
+[0m21:47:28.209007 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:47:28.216048 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:28.217007 [debug] [MainThread]: On master: COMMIT
+[0m21:47:28.218051 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:28.219006 [debug] [MainThread]: On master: COMMIT
+[0m21:47:28.220007 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:28.221010 [debug] [MainThread]: On master: Close
+[0m21:47:28.223010 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:47:28.224106 [info ] [MainThread]: 
+[0m21:47:28.228614 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.stg_eltool__customers
+[0m21:47:28.229657 [info ] [Thread-1 (]: 1 of 7 START sql view model main.stg_eltool__customers ......................... [RUN]
+[0m21:47:28.231619 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.sde_dbt_tutorial.stg_eltool__customers'
+[0m21:47:28.232617 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.stg_eltool__customers
+[0m21:47:28.244614 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m21:47:28.248326 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.stg_eltool__customers
+[0m21:47:28.300323 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m21:47:28.303435 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m21:47:28.304435 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: BEGIN
+[0m21:47:28.304435 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:47:28.313435 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:28.313435 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m21:47:28.314478 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__customers"} */
+
+  
+  create view "dbt"."main"."stg_eltool__customers__dbt_tmp" as (
+    with source as (
+    select *
+    from "dbt"."snapshots"."customers_snapshot"
+),
+
+renamed as (
+    select
+        customer_id,
+        zipcode,
+        city,
+        state_code,
+        datetime_created::TIMESTAMP as datetime_created,
+        datetime_updated::TIMESTAMP as datetime_updated,
+        dbt_valid_from,
+        dbt_valid_to
+    from source
+)
+
+select *
+from renamed
+  );
+
+[0m21:47:28.316434 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:28.326432 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m21:47:28.327433 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__customers"} */
+alter view "dbt"."main"."stg_eltool__customers__dbt_tmp" rename to "stg_eltool__customers"
+[0m21:47:28.328477 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:28.350476 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: COMMIT
+[0m21:47:28.350476 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m21:47:28.351434 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: COMMIT
+[0m21:47:29.254051 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m21:47:29.283081 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m21:47:29.285039 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__customers"} */
+drop view if exists "dbt"."main"."stg_eltool__customers__dbt_backup" cascade
+[0m21:47:29.287036 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:29.292034 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: Close
+[0m21:47:29.746978 [info ] [Thread-1 (]: 1 of 7 OK created sql view model main.stg_eltool__customers .................... [[32mOK[0m in 1.51s]
+[0m21:47:29.753030 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.stg_eltool__customers
+[0m21:47:29.755981 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.stg_eltool__orders
+[0m21:47:29.760018 [info ] [Thread-1 (]: 2 of 7 START sql view model main.stg_eltool__orders ............................ [RUN]
+[0m21:47:29.762969 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.stg_eltool__customers, now model.sde_dbt_tutorial.stg_eltool__orders)
+[0m21:47:29.764964 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.stg_eltool__orders
+[0m21:47:29.773004 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m21:47:29.775965 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.stg_eltool__orders
+[0m21:47:29.785000 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m21:47:29.785960 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m21:47:29.786962 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: BEGIN
+[0m21:47:29.788001 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:29.802004 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:29.802999 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m21:47:29.804001 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__orders"} */
+
+  
+  create view "dbt"."main"."stg_eltool__orders__dbt_tmp" as (
+    with source as (
+    select *
+    from './raw_data/orders.csv'
+),
+
+renamed as (
+    select
+        order_id,
+        customer_id,
+        order_status,
+        order_purchase_timestamp::TIMESTAMP AS order_purchase_timestamp,
+        order_approved_at::TIMESTAMP AS order_approved_at,
+        order_delivered_carrier_date::TIMESTAMP AS order_delivered_carrier_date,
+        order_delivered_customer_date::TIMESTAMP AS order_delivered_customer_date,
+        order_estimated_delivery_date::TIMESTAMP AS order_estimated_delivery_date
+    from source
+)
+
+select *
+from renamed
+  );
+
+[0m21:47:30.397999 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m21:47:30.404000 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m21:47:30.404000 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__orders"} */
+alter view "dbt"."main"."stg_eltool__orders__dbt_tmp" rename to "stg_eltool__orders"
+[0m21:47:30.406962 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:30.409003 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: COMMIT
+[0m21:47:30.410004 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m21:47:30.411003 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: COMMIT
+[0m21:47:31.276873 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m21:47:31.294925 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m21:47:31.297924 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__orders"} */
+drop view if exists "dbt"."main"."stg_eltool__orders__dbt_backup" cascade
+[0m21:47:31.301906 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:31.306895 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: Close
+[0m21:47:32.189322 [info ] [Thread-1 (]: 2 of 7 OK created sql view model main.stg_eltool__orders ....................... [[32mOK[0m in 2.43s]
+[0m21:47:32.194324 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.stg_eltool__orders
+[0m21:47:32.197320 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.stg_eltool__state
+[0m21:47:32.202276 [info ] [Thread-1 (]: 3 of 7 START sql view model main.stg_eltool__state ............................. [RUN]
+[0m21:47:32.207225 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.stg_eltool__orders, now model.sde_dbt_tutorial.stg_eltool__state)
+[0m21:47:32.210234 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.stg_eltool__state
+[0m21:47:32.223211 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.stg_eltool__state"
+[0m21:47:32.225213 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.stg_eltool__state
+[0m21:47:32.237208 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.stg_eltool__state"
+[0m21:47:32.238210 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m21:47:32.239211 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: BEGIN
+[0m21:47:32.240209 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:32.255413 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:32.256376 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m21:47:32.256376 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__state"} */
+
+  
+  create view "dbt"."main"."stg_eltool__state__dbt_tmp" as (
+    with source as (
+    select *
+    from './raw_data/state.csv'
+),
+
+renamed as (
+    select
+        state_id::INT as state_id,
+        state_code::VARCHAR(2) as state_code,
+        state_name::VARCHAR(30) as state_name
+    from source
+)
+
+select *
+from renamed
+  );
+
+[0m21:47:32.260381 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:32.266376 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m21:47:32.267378 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__state"} */
+alter view "dbt"."main"."stg_eltool__state__dbt_tmp" rename to "stg_eltool__state"
+[0m21:47:32.268374 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:32.271377 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: COMMIT
+[0m21:47:32.272378 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m21:47:32.272378 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: COMMIT
+[0m21:47:32.525720 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:32.545784 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m21:47:32.549723 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__state"} */
+drop view if exists "dbt"."main"."stg_eltool__state__dbt_backup" cascade
+[0m21:47:32.551716 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:32.556756 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: Close
+[0m21:47:32.613689 [info ] [Thread-1 (]: 3 of 7 OK created sql view model main.stg_eltool__state ........................ [[32mOK[0m in 0.41s]
+[0m21:47:32.615655 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.stg_eltool__state
+[0m21:47:32.617647 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.fct_orders
+[0m21:47:32.618651 [info ] [Thread-1 (]: 4 of 7 START sql table model main.fct_orders ................................... [RUN]
+[0m21:47:32.620651 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.stg_eltool__state, now model.sde_dbt_tutorial.fct_orders)
+[0m21:47:32.621652 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.fct_orders
+[0m21:47:32.628684 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.fct_orders"
+[0m21:47:32.632668 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.fct_orders
+[0m21:47:32.664686 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.fct_orders"
+[0m21:47:32.666684 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m21:47:32.667725 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: BEGIN
+[0m21:47:32.668725 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:32.682924 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:32.683923 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m21:47:32.683923 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.fct_orders"} */
+
+  
+    
+    
+
+    create  table
+      "dbt"."main"."fct_orders__dbt_tmp"
+  
+    as (
+      with orders as (
+    select *
+    from "dbt"."main"."stg_eltool__orders"
+)
+
+select * from orders
+    );
+  
+  
+[0m21:47:33.293925 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m21:47:33.300920 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m21:47:33.301921 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.fct_orders"} */
+alter table "dbt"."main"."fct_orders__dbt_tmp" rename to "fct_orders"
+[0m21:47:33.302921 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:33.310926 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: COMMIT
+[0m21:47:33.310926 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m21:47:33.311927 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: COMMIT
+[0m21:47:33.847046 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m21:47:33.864029 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m21:47:33.867033 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.fct_orders"} */
+drop table if exists "dbt"."main"."fct_orders__dbt_backup" cascade
+[0m21:47:33.870029 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:33.874026 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: Close
+[0m21:47:33.950870 [info ] [Thread-1 (]: 4 of 7 OK created sql table model main.fct_orders .............................. [[32mOK[0m in 1.33s]
+[0m21:47:33.952876 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.fct_orders
+[0m21:47:33.953875 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.dim_customers
+[0m21:47:33.954871 [info ] [Thread-1 (]: 5 of 7 START sql table model main.dim_customers ................................ [RUN]
+[0m21:47:33.955799 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.fct_orders, now model.sde_dbt_tutorial.dim_customers)
+[0m21:47:33.957815 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.dim_customers
+[0m21:47:33.963811 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.dim_customers"
+[0m21:47:33.965812 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.dim_customers
+[0m21:47:33.972853 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.dim_customers"
+[0m21:47:33.974815 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m21:47:33.975855 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: BEGIN
+[0m21:47:33.976815 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:33.991559 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:33.992559 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m21:47:33.992559 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.dim_customers"} */
+
+  
+    
+    
+
+    create  table
+      "dbt"."main"."dim_customers__dbt_tmp"
+  
+    as (
+      with customers as (
+    select *
+    from "dbt"."main"."stg_eltool__customers"
+),
+
+state as (
+    select *
+    from "dbt"."main"."stg_eltool__state"
+)
+
+select
+    c.customer_id,
+    c.zipcode,
+    c.city,
+    c.state_code,
+    s.state_name,
+    c.datetime_created,
+    c.datetime_updated,
+    c.dbt_valid_from::TIMESTAMP as valid_from,
+    case
+        when c.dbt_valid_to is NULL then '9999-12-31'::TIMESTAMP
+        else c.dbt_valid_to::TIMESTAMP
+    end as valid_to
+from customers as c
+inner join state as s on c.state_code = s.state_code
+    );
+  
+  
+[0m21:47:34.002562 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.009565 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m21:47:34.009565 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.dim_customers"} */
+alter table "dbt"."main"."dim_customers__dbt_tmp" rename to "dim_customers"
+[0m21:47:34.011559 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.013564 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: COMMIT
+[0m21:47:34.015563 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m21:47:34.016560 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: COMMIT
+[0m21:47:34.032805 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.036841 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m21:47:34.037841 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.dim_customers"} */
+drop table if exists "dbt"."main"."dim_customers__dbt_backup" cascade
+[0m21:47:34.038805 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.040844 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: Close
+[0m21:47:34.134609 [info ] [Thread-1 (]: 5 of 7 OK created sql table model main.dim_customers ........................... [[32mOK[0m in 0.18s]
+[0m21:47:34.136609 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.dim_customers
+[0m21:47:34.139435 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.customer_orders
+[0m21:47:34.141458 [info ] [Thread-1 (]: 6 of 7 START sql view model main.customer_orders ............................... [RUN]
+[0m21:47:34.143374 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.dim_customers, now model.sde_dbt_tutorial.customer_orders)
+[0m21:47:34.144373 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.customer_orders
+[0m21:47:34.154403 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.customer_orders"
+[0m21:47:34.156367 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.customer_orders
+[0m21:47:34.163361 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.customer_orders"
+[0m21:47:34.166362 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m21:47:34.167368 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: BEGIN
+[0m21:47:34.168406 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:34.183645 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.184644 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m21:47:34.184644 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.customer_orders"} */
+
+  
+  create view "dbt"."main"."customer_orders__dbt_tmp" as (
+    with orders as (
+    select *
+    from "dbt"."main"."fct_orders"
+),
+
+customers as (
+    select *
+    from "dbt"."main"."dim_customers"
+)
+
+select
+    o.order_id,
+    o.customer_id,
+    o.order_status,
+    o.order_purchase_timestamp,
+    o.order_approved_at,
+    o.order_delivered_carrier_date,
+    o.order_delivered_customer_date,
+    o.order_estimated_delivery_date,
+    c.zipcode as customer_zipcode,
+    c.city as customer_city,
+    c.state_code as customer_state_code,
+    c.state_name as customer_state_name
+from orders as o
+inner join customers as c on
+    o.customer_id = c.customer_id
+    and o.order_purchase_timestamp >= c.valid_from
+    and o.order_purchase_timestamp <= c.valid_to
+  );
+
+[0m21:47:34.186687 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.191683 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m21:47:34.192683 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.customer_orders"} */
+alter view "dbt"."main"."customer_orders__dbt_tmp" rename to "customer_orders"
+[0m21:47:34.193686 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.196684 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: COMMIT
+[0m21:47:34.197644 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m21:47:34.198645 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: COMMIT
+[0m21:47:34.222227 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.228242 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m21:47:34.229242 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.customer_orders"} */
+drop view if exists "dbt"."main"."customer_orders__dbt_backup" cascade
+[0m21:47:34.230242 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.234282 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: Close
+[0m21:47:34.315296 [info ] [Thread-1 (]: 6 of 7 OK created sql view model main.customer_orders .......................... [[32mOK[0m in 0.17s]
+[0m21:47:34.318297 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.customer_orders
+[0m21:47:34.320295 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.order_status_pivot
+[0m21:47:34.322298 [info ] [Thread-1 (]: 7 of 7 START sql view model main.order_status_pivot ............................ [RUN]
+[0m21:47:34.324301 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.customer_orders, now model.sde_dbt_tutorial.order_status_pivot)
+[0m21:47:34.325300 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.order_status_pivot
+[0m21:47:34.355299 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:47:34.356296 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: BEGIN
+[0m21:47:34.356296 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:34.371983 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.372985 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:47:34.374025 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+select
+                order_status as value
+
+            from "dbt"."main"."customer_orders"
+
+            
+
+            group by order_status
+            order by count(*) desc
+
+            
+
+        
+[0m21:47:34.377982 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.395025 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:47:34.396984 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.order_status_pivot
+[0m21:47:34.404023 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:47:34.404982 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:47:34.406024 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+
+  
+  create view "dbt"."main"."order_status_pivot__dbt_tmp" as (
+    SELECT
+    EXTRACT(
+        YEAR
+        FROM
+        order_approved_at
+    ) AS order_year, --noqa: CV03
+
+  
+    sum(
+      
+      case
+      when order_status = 'delivered'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "delivered"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'shipped'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "shipped"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'unavailable'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "unavailable"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'canceled'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "canceled"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'invoiced'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "invoiced"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'processing'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "processing"
+      
+    
+    
+  
+
+FROM
+    "dbt"."main"."customer_orders"
+GROUP BY
+    1
+  );
+
+[0m21:47:34.408984 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.414025 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:47:34.415984 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+alter view "dbt"."main"."order_status_pivot__dbt_tmp" rename to "order_status_pivot"
+[0m21:47:34.417017 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.419025 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: COMMIT
+[0m21:47:34.420024 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:47:34.421024 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: COMMIT
+[0m21:47:34.440286 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.446319 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:47:34.447282 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+drop view if exists "dbt"."main"."order_status_pivot__dbt_backup" cascade
+[0m21:47:34.448279 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:34.450319 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: Close
+[0m21:47:34.504183 [info ] [Thread-1 (]: 7 of 7 OK created sql view model main.order_status_pivot ....................... [[32mOK[0m in 0.18s]
+[0m21:47:34.506175 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.order_status_pivot
+[0m21:47:34.507581 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:34.508633 [debug] [MainThread]: On master: BEGIN
+[0m21:47:34.509634 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:47:34.524632 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:34.525592 [debug] [MainThread]: On master: COMMIT
+[0m21:47:34.525592 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:34.526632 [debug] [MainThread]: On master: COMMIT
+[0m21:47:34.527639 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:34.528592 [debug] [MainThread]: On master: Close
+[0m21:47:34.530598 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:47:34.530598 [debug] [MainThread]: Connection 'create_dbt_main' was properly closed.
+[0m21:47:34.532593 [debug] [MainThread]: Connection 'list_dbt_snapshots' was properly closed.
+[0m21:47:34.533593 [debug] [MainThread]: Connection 'model.sde_dbt_tutorial.order_status_pivot' was properly closed.
+[0m21:47:34.534635 [info ] [MainThread]: 
+[0m21:47:34.535593 [info ] [MainThread]: Finished running 5 view models, 2 table models in 0 hours 0 minutes and 6.69 seconds (6.69s).
+[0m21:47:34.539591 [debug] [MainThread]: Command end result
+[0m21:47:34.608592 [info ] [MainThread]: 
+[0m21:47:34.609170 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:47:34.610224 [info ] [MainThread]: 
+[0m21:47:34.612186 [info ] [MainThread]: Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7
+[0m21:47:34.613709 [debug] [MainThread]: Command `dbt run` succeeded at 21:47:34.613709 after 8.54 seconds
+[0m21:47:34.614707 [debug] [MainThread]: Flushing usage events
+
+
+============================== 21:47:44.821414 | 95958b97-5224-4e50-af34-706a8f4d44af ==============================
+[0m21:47:44.821414 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:47:44.823415 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'debug': 'False', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'False'}
+[0m21:47:45.229001 [info ] [MainThread]: Registered adapter: duckdb=1.8.1
+[0m21:47:45.269783 [debug] [MainThread]: checksum: ebc509fb14e151ea268e89b60fd5abf912ed99129f87516462718fa2f14f4838, vars: {}, profile: , target: , version: 1.8.1
+[0m21:47:45.691787 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:47:45.692786 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:47:46.475288 [info ] [MainThread]: Found 7 models, 1 snapshot, 11 data tests, 3 sources, 1 exposure, 756 macros
+[0m21:47:46.479281 [info ] [MainThread]: 
+[0m21:47:46.481282 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m21:47:46.490420 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt_snapshots'
+[0m21:47:46.640718 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m21:47:46.641722 [debug] [ThreadPool]: On list_dbt_snapshots: BEGIN
+[0m21:47:46.641722 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:47:46.652261 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:46.654267 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m21:47:46.654267 [debug] [ThreadPool]: On list_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_snapshots"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'snapshots'
+    and table_catalog = 'dbt'
+  
+[0m21:47:46.694302 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:46.702267 [debug] [ThreadPool]: On list_dbt_snapshots: ROLLBACK
+[0m21:47:46.703267 [debug] [ThreadPool]: Failed to rollback 'list_dbt_snapshots'
+[0m21:47:46.704268 [debug] [ThreadPool]: On list_dbt_snapshots: Close
+[0m21:47:46.708262 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_snapshots, now list_dbt_main)
+[0m21:47:46.712629 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m21:47:46.713629 [debug] [ThreadPool]: On list_dbt_main: BEGIN
+[0m21:47:46.715633 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:47:46.723670 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:46.724631 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m21:47:46.724631 [debug] [ThreadPool]: On list_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_main"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'main'
+    and table_catalog = 'dbt'
+  
+[0m21:47:46.766630 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:47:46.773671 [debug] [ThreadPool]: On list_dbt_main: ROLLBACK
+[0m21:47:46.774671 [debug] [ThreadPool]: Failed to rollback 'list_dbt_main'
+[0m21:47:46.775631 [debug] [ThreadPool]: On list_dbt_main: Close
+[0m21:47:46.781631 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:46.781631 [debug] [MainThread]: On master: BEGIN
+[0m21:47:46.782630 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:47:46.791634 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:46.792631 [debug] [MainThread]: On master: COMMIT
+[0m21:47:46.792631 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:46.793635 [debug] [MainThread]: On master: COMMIT
+[0m21:47:46.794630 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:46.795631 [debug] [MainThread]: On master: Close
+[0m21:47:46.798630 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:47:46.799431 [info ] [MainThread]: 
+[0m21:47:46.804969 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3
+[0m21:47:46.805972 [info ] [Thread-1 (]: 1 of 11 START test accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable  [RUN]
+[0m21:47:46.806969 [debug] [Thread-1 (]: Acquiring new duckdb connection 'test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3'
+[0m21:47:46.807970 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3
+[0m21:47:46.845011 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3"
+[0m21:47:46.847971 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3
+[0m21:47:46.875009 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3"
+[0m21:47:46.878012 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3"
+[0m21:47:46.878971 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3: BEGIN
+[0m21:47:46.878971 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:47:46.887969 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:46.888975 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3"
+[0m21:47:46.890012 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with all_values as (
+
+    select
+        order_status as value_field,
+        count(*) as n_records
+
+    from "dbt"."main"."customer_orders"
+    group by order_status
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'delivered','invoiced','shipped','processing','canceled','unavailable'
+)
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:46.894008 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:46.902072 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3: ROLLBACK
+[0m21:47:46.904034 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3'
+[0m21:47:46.904034 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3: Close
+[0m21:47:46.907033 [info ] [Thread-1 (]: 1 of 11 PASS accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable  [[32mPASS[0m in 0.10s]
+[0m21:47:46.909071 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3
+[0m21:47:46.909071 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss
+[0m21:47:46.910070 [info ] [Thread-1 (]: 2 of 11 START test assert_customer_dimension_has_no_row_loss ................... [RUN]
+[0m21:47:46.911328 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3, now test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss)
+[0m21:47:46.912346 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss
+[0m21:47:46.919342 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss"
+[0m21:47:46.922689 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss
+[0m21:47:46.926686 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss"
+[0m21:47:46.928691 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss"
+[0m21:47:46.929687 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss: BEGIN
+[0m21:47:46.930688 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:46.940686 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:46.941687 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss"
+[0m21:47:46.942690 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      -- dim_customers must have the same number of rows as its staging counterpart
+-- Therefore return records where this isn't true to make the test fail
+select *
+from (
+        select dim_cust.customer_id
+        from "dbt"."main"."dim_customers" dim_cust
+            left join "dbt"."main"."stg_eltool__customers" stg_cust on dim_cust.customer_id = stg_cust.customer_id
+        where stg_cust.customer_id is null
+        UNION ALL
+        select stg_cust.customer_id
+        from "dbt"."main"."stg_eltool__customers" stg_cust
+            left join "dbt"."main"."dim_customers" dim_cust on stg_cust.customer_id = dim_cust.customer_id
+        where dim_cust.customer_id is null
+    ) tmp
+      
+    ) dbt_internal_test
+[0m21:47:46.945687 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:46.949691 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss: ROLLBACK
+[0m21:47:46.950690 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss'
+[0m21:47:46.951693 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss: Close
+[0m21:47:46.953752 [info ] [Thread-1 (]: 2 of 11 PASS assert_customer_dimension_has_no_row_loss ......................... [[32mPASS[0m in 0.04s]
+[0m21:47:46.955690 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss
+[0m21:47:46.956687 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577
+[0m21:47:46.957687 [info ] [Thread-1 (]: 3 of 11 START test dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018  [RUN]
+[0m21:47:46.958357 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss, now test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577)
+[0m21:47:46.959375 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577
+[0m21:47:46.981369 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577"
+[0m21:47:46.983902 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577
+[0m21:47:46.988913 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577"
+[0m21:47:46.990913 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577"
+[0m21:47:46.991914 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577: BEGIN
+[0m21:47:46.991914 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:47.001956 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.002956 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577"
+[0m21:47:47.003914 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+
+
+
+
+
+    with grouped_expression as (
+    select
+        
+        
+    
+  delivered > invoiced as expression
+
+
+    from "dbt"."main"."order_status_pivot"
+    where
+        order_year > 2018
+    
+    
+
+),
+validation_errors as (
+
+    select
+        *
+    from
+        grouped_expression
+    where
+        not(expression = true)
+
+)
+
+select *
+from validation_errors
+
+
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:47.007913 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.010915 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577: ROLLBACK
+[0m21:47:47.011913 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577'
+[0m21:47:47.012914 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577: Close
+[0m21:47:47.015920 [info ] [Thread-1 (]: 3 of 11 PASS dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018  [[32mPASS[0m in 0.06s]
+[0m21:47:47.017958 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577
+[0m21:47:47.018916 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0
+[0m21:47:47.019915 [info ] [Thread-1 (]: 4 of 11 START test not_null_customer_orders_customer_id ........................ [RUN]
+[0m21:47:47.020467 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577, now test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0)
+[0m21:47:47.021485 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0
+[0m21:47:47.033477 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0"
+[0m21:47:47.035481 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0
+[0m21:47:47.040479 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0"
+[0m21:47:47.041480 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0"
+[0m21:47:47.043481 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0: BEGIN
+[0m21:47:47.044488 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:47.053519 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.054479 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0"
+[0m21:47:47.055480 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select customer_id
+from "dbt"."main"."customer_orders"
+where customer_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:47.058478 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.061521 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0: ROLLBACK
+[0m21:47:47.062481 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0'
+[0m21:47:47.062481 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0: Close
+[0m21:47:47.066480 [info ] [Thread-1 (]: 4 of 11 PASS not_null_customer_orders_customer_id .............................. [[32mPASS[0m in 0.05s]
+[0m21:47:47.067482 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0
+[0m21:47:47.068523 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m21:47:47.069498 [info ] [Thread-1 (]: 5 of 11 START test not_null_dim_customers_customer_id .......................... [RUN]
+[0m21:47:47.070479 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0, now test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d)
+[0m21:47:47.071480 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m21:47:47.078521 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d"
+[0m21:47:47.082505 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m21:47:47.086545 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d"
+[0m21:47:47.088504 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d"
+[0m21:47:47.089505 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d: BEGIN
+[0m21:47:47.090506 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:47.099545 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.100504 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d"
+[0m21:47:47.100504 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select customer_id
+from "dbt"."main"."dim_customers"
+where customer_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:47.102548 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.105508 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d: ROLLBACK
+[0m21:47:47.106503 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d'
+[0m21:47:47.108506 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d: Close
+[0m21:47:47.112506 [info ] [Thread-1 (]: 5 of 11 PASS not_null_dim_customers_customer_id ................................ [[32mPASS[0m in 0.04s]
+[0m21:47:47.115506 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m21:47:47.116506 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df
+[0m21:47:47.118507 [info ] [Thread-1 (]: 6 of 11 START test not_null_stg_eltool__customers_customer_id .................. [RUN]
+[0m21:47:47.119507 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d, now test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df)
+[0m21:47:47.121505 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df
+[0m21:47:47.134506 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df"
+[0m21:47:47.137506 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df
+[0m21:47:47.142503 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df"
+[0m21:47:47.144504 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df"
+[0m21:47:47.145510 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df: BEGIN
+[0m21:47:47.146507 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:47.155503 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.156504 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df"
+[0m21:47:47.157504 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select customer_id
+from "dbt"."main"."stg_eltool__customers"
+where customer_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:47.159504 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.162503 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df: ROLLBACK
+[0m21:47:47.163505 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df'
+[0m21:47:47.164506 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df: Close
+[0m21:47:47.166966 [info ] [Thread-1 (]: 6 of 11 PASS not_null_stg_eltool__customers_customer_id ........................ [[32mPASS[0m in 0.05s]
+[0m21:47:47.169006 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df
+[0m21:47:47.169966 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f
+[0m21:47:47.170966 [info ] [Thread-1 (]: 7 of 11 START test source_not_null_raw_layer_customers_customer_id ............. [RUN]
+[0m21:47:47.171739 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df, now test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f)
+[0m21:47:47.172756 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f
+[0m21:47:47.179756 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f"
+[0m21:47:47.182714 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f
+[0m21:47:47.187712 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f"
+[0m21:47:47.189711 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f"
+[0m21:47:47.190712 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f: BEGIN
+[0m21:47:47.190712 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:47.199711 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.201714 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f"
+[0m21:47:47.202712 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select customer_id
+from './raw_data/customers.csv'
+where customer_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:47.232709 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.235710 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f: ROLLBACK
+[0m21:47:47.236752 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f'
+[0m21:47:47.237753 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f: Close
+[0m21:47:47.240715 [info ] [Thread-1 (]: 7 of 11 PASS source_not_null_raw_layer_customers_customer_id ................... [[32mPASS[0m in 0.07s]
+[0m21:47:47.241711 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f
+[0m21:47:47.242713 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b
+[0m21:47:47.243754 [info ] [Thread-1 (]: 8 of 11 START test source_not_null_raw_layer_orders_order_id ................... [RUN]
+[0m21:47:47.244716 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f, now test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b)
+[0m21:47:47.246709 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b
+[0m21:47:47.252751 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b"
+[0m21:47:47.255348 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b
+[0m21:47:47.262367 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b"
+[0m21:47:47.264365 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b"
+[0m21:47:47.265362 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b: BEGIN
+[0m21:47:47.266360 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:47.275386 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.276362 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b"
+[0m21:47:47.276362 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select order_id
+from './raw_data/orders.csv'
+where order_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:47.907399 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m21:47:47.909401 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b: ROLLBACK
+[0m21:47:47.910373 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b'
+[0m21:47:47.911363 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b: Close
+[0m21:47:47.913358 [info ] [Thread-1 (]: 8 of 11 PASS source_not_null_raw_layer_orders_order_id ......................... [[32mPASS[0m in 0.67s]
+[0m21:47:47.915362 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b
+[0m21:47:47.916402 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc
+[0m21:47:47.917400 [info ] [Thread-1 (]: 9 of 11 START test source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_  [RUN]
+[0m21:47:47.918359 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b, now test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc)
+[0m21:47:47.919402 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc
+[0m21:47:47.932401 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc"
+[0m21:47:47.934362 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc
+[0m21:47:47.939359 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc"
+[0m21:47:47.940387 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc"
+[0m21:47:47.941359 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc: BEGIN
+[0m21:47:47.942388 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:47.951360 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:47.952362 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc"
+[0m21:47:47.953363 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with child as (
+    select customer_id as from_field
+    from './raw_data/orders.csv'
+    where customer_id is not null
+),
+
+parent as (
+    select customer_id as to_field
+    from './raw_data/customers.csv'
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:48.598363 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m21:47:48.601401 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc: ROLLBACK
+[0m21:47:48.602399 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc'
+[0m21:47:48.603360 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc: Close
+[0m21:47:48.605538 [info ] [Thread-1 (]: 9 of 11 PASS source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_  [[32mPASS[0m in 0.69s]
+[0m21:47:48.606883 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc
+[0m21:47:48.607938 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612
+[0m21:47:48.608935 [info ] [Thread-1 (]: 10 of 11 START test source_unique_raw_layer_orders_order_id .................... [RUN]
+[0m21:47:48.610899 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc, now test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612)
+[0m21:47:48.610899 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612
+[0m21:47:48.621935 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612"
+[0m21:47:48.625647 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612
+[0m21:47:48.630681 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612"
+[0m21:47:48.633647 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612"
+[0m21:47:48.633647 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612: BEGIN
+[0m21:47:48.634642 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:48.643639 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:48.644637 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612"
+[0m21:47:48.645638 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    order_id as unique_field,
+    count(*) as n_records
+
+from './raw_data/orders.csv'
+where order_id is not null
+group by order_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:49.234640 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m21:47:49.238643 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612: ROLLBACK
+[0m21:47:49.239643 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612'
+[0m21:47:49.240642 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612: Close
+[0m21:47:49.243637 [info ] [Thread-1 (]: 10 of 11 PASS source_unique_raw_layer_orders_order_id .......................... [[32mPASS[0m in 0.63s]
+[0m21:47:49.245649 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612
+[0m21:47:49.245649 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc
+[0m21:47:49.246649 [info ] [Thread-1 (]: 11 of 11 START test unique_customer_orders_order_id ............................ [RUN]
+[0m21:47:49.248608 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612, now test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc)
+[0m21:47:49.249611 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc
+[0m21:47:49.256649 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc"
+[0m21:47:49.279666 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc
+[0m21:47:49.284701 [debug] [Thread-1 (]: Writing runtime sql for node "test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc"
+[0m21:47:49.287666 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc"
+[0m21:47:49.287666 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc: BEGIN
+[0m21:47:49.288662 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m21:47:49.297657 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:49.298719 [debug] [Thread-1 (]: Using duckdb connection "test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc"
+[0m21:47:49.299701 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    order_id as unique_field,
+    count(*) as n_records
+
+from "dbt"."main"."customer_orders"
+where order_id is not null
+group by order_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m21:47:49.304661 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:47:49.306658 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc: ROLLBACK
+[0m21:47:49.307657 [debug] [Thread-1 (]: Failed to rollback 'test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc'
+[0m21:47:49.308701 [debug] [Thread-1 (]: On test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc: Close
+[0m21:47:49.311701 [info ] [Thread-1 (]: 11 of 11 PASS unique_customer_orders_order_id .................................. [[32mPASS[0m in 0.06s]
+[0m21:47:49.312661 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc
+[0m21:47:49.314661 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:49.315665 [debug] [MainThread]: On master: BEGIN
+[0m21:47:49.316665 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m21:47:49.325662 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:49.326703 [debug] [MainThread]: On master: COMMIT
+[0m21:47:49.327661 [debug] [MainThread]: Using duckdb connection "master"
+[0m21:47:49.327661 [debug] [MainThread]: On master: COMMIT
+[0m21:47:49.328700 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m21:47:49.329701 [debug] [MainThread]: On master: Close
+[0m21:47:49.331658 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:47:49.332658 [debug] [MainThread]: Connection 'list_dbt_main' was properly closed.
+[0m21:47:49.333659 [debug] [MainThread]: Connection 'test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc' was properly closed.
+[0m21:47:49.333659 [info ] [MainThread]: 
+[0m21:47:49.334659 [info ] [MainThread]: Finished running 11 data tests in 0 hours 0 minutes and 2.85 seconds (2.85s).
+[0m21:47:49.339670 [debug] [MainThread]: Command end result
+[0m21:47:49.410658 [info ] [MainThread]: 
+[0m21:47:49.412661 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:47:49.413663 [info ] [MainThread]: 
+[0m21:47:49.414663 [info ] [MainThread]: Done. PASS=11 WARN=0 ERROR=0 SKIP=0 TOTAL=11
+[0m21:47:49.416701 [debug] [MainThread]: Command `dbt test` succeeded at 21:47:49.416701 after 4.70 seconds
+[0m21:47:49.417659 [debug] [MainThread]: Flushing usage events
+
+
+============================== 21:48:00.459737 | 03b423d7-7207-4854-8541-62e296a34e68 ==============================
+[0m21:48:00.459737 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:48:00.461737 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'debug': 'False', 'version_check': 'True', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'False'}
+[0m21:48:01.048736 [info ] [MainThread]: Registered adapter: duckdb=1.8.1
+[0m21:48:01.095736 [debug] [MainThread]: checksum: ebc509fb14e151ea268e89b60fd5abf912ed99129f87516462718fa2f14f4838, vars: {}, profile: , target: , version: 1.8.1
+[0m21:48:01.707736 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:48:01.708737 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:48:01.926737 [info ] [MainThread]: Found 7 models, 1 snapshot, 11 data tests, 3 sources, 1 exposure, 756 macros
+[0m21:48:01.932737 [info ] [MainThread]: 
+[0m21:48:01.934739 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m21:48:01.945737 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt_main'
+[0m21:48:02.137737 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m21:48:02.138737 [debug] [ThreadPool]: On list_dbt_main: BEGIN
+[0m21:48:02.139738 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:48:02.153739 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:48:02.154741 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m21:48:02.155740 [debug] [ThreadPool]: On list_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_main"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'main'
+    and table_catalog = 'dbt'
+  
+[0m21:48:02.215738 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:48:02.229738 [debug] [ThreadPool]: On list_dbt_main: ROLLBACK
+[0m21:48:02.231741 [debug] [ThreadPool]: Failed to rollback 'list_dbt_main'
+[0m21:48:02.233738 [debug] [ThreadPool]: On list_dbt_main: Close
+[0m21:48:02.239737 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_main, now list_dbt_snapshots)
+[0m21:48:02.252736 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m21:48:02.254740 [debug] [ThreadPool]: On list_dbt_snapshots: BEGIN
+[0m21:48:02.255738 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m21:48:02.271739 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:48:02.273736 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m21:48:02.274737 [debug] [ThreadPool]: On list_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_snapshots"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'snapshots'
+    and table_catalog = 'dbt'
+  
+[0m21:48:02.365736 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:48:02.374735 [debug] [ThreadPool]: On list_dbt_snapshots: ROLLBACK
+[0m21:48:02.375737 [debug] [ThreadPool]: Failed to rollback 'list_dbt_snapshots'
+[0m21:48:02.376736 [debug] [ThreadPool]: On list_dbt_snapshots: Close
+[0m21:48:02.382737 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:48:02.383738 [info ] [MainThread]: 
+[0m21:48:02.388736 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.stg_eltool__orders
+[0m21:48:02.389737 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.sde_dbt_tutorial.stg_eltool__orders'
+[0m21:48:02.390736 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.stg_eltool__orders
+[0m21:48:02.404736 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m21:48:02.405736 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.stg_eltool__orders
+[0m21:48:02.407736 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.stg_eltool__orders
+[0m21:48:02.409738 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.stg_eltool__state
+[0m21:48:02.411740 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.stg_eltool__orders, now model.sde_dbt_tutorial.stg_eltool__state)
+[0m21:48:02.412739 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.stg_eltool__state
+[0m21:48:02.418740 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.stg_eltool__state"
+[0m21:48:02.420739 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.stg_eltool__state
+[0m21:48:02.421739 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.stg_eltool__state
+[0m21:48:02.422741 [debug] [Thread-1 (]: Began running node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m21:48:02.424737 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.stg_eltool__state, now snapshot.sde_dbt_tutorial.customers_snapshot)
+[0m21:48:02.425738 [debug] [Thread-1 (]: Began compiling node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m21:48:02.432740 [debug] [Thread-1 (]: Began executing node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m21:48:02.433738 [debug] [Thread-1 (]: Finished running node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m21:48:02.434737 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f
+[0m21:48:02.435739 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly snapshot.sde_dbt_tutorial.customers_snapshot, now test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f)
+[0m21:48:02.436737 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f
+[0m21:48:02.457736 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f"
+[0m21:48:02.458742 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f
+[0m21:48:02.460738 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f
+[0m21:48:02.461737 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b
+[0m21:48:02.462737 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.source_not_null_raw_layer_customers_customer_id.c45417626f, now test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b)
+[0m21:48:02.463737 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b
+[0m21:48:02.471735 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b"
+[0m21:48:02.473739 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b
+[0m21:48:02.475737 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b
+[0m21:48:02.476736 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc
+[0m21:48:02.477737 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.source_not_null_raw_layer_orders_order_id.ded4d7c72b, now test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc)
+[0m21:48:02.478737 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc
+[0m21:48:02.492738 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc"
+[0m21:48:02.493738 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc
+[0m21:48:02.495739 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc
+[0m21:48:02.496739 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612
+[0m21:48:02.497737 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.source_relationships_raw_layer_orders_customer_id__customer_id__source_raw_layer_customers_.1d2094d7dc, now test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612)
+[0m21:48:02.498737 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612
+[0m21:48:02.510778 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612"
+[0m21:48:02.511738 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612
+[0m21:48:02.513739 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612
+[0m21:48:02.514736 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.fct_orders
+[0m21:48:02.516738 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.source_unique_raw_layer_orders_order_id.d04a715612, now model.sde_dbt_tutorial.fct_orders)
+[0m21:48:02.517740 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.fct_orders
+[0m21:48:02.522777 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.fct_orders"
+[0m21:48:02.523739 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.fct_orders
+[0m21:48:02.524738 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.fct_orders
+[0m21:48:02.525777 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.stg_eltool__customers
+[0m21:48:02.526736 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.fct_orders, now model.sde_dbt_tutorial.stg_eltool__customers)
+[0m21:48:02.527741 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.stg_eltool__customers
+[0m21:48:02.599738 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m21:48:02.601745 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.stg_eltool__customers
+[0m21:48:02.604738 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.stg_eltool__customers
+[0m21:48:02.606740 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.dim_customers
+[0m21:48:02.608739 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.stg_eltool__customers, now model.sde_dbt_tutorial.dim_customers)
+[0m21:48:02.609742 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.dim_customers
+[0m21:48:02.621736 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.dim_customers"
+[0m21:48:02.624738 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.dim_customers
+[0m21:48:02.626738 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.dim_customers
+[0m21:48:02.628737 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df
+[0m21:48:02.631738 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.dim_customers, now test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df)
+[0m21:48:02.632735 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df
+[0m21:48:02.642740 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df"
+[0m21:48:02.644740 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df
+[0m21:48:02.646736 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df
+[0m21:48:02.649739 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.customer_orders
+[0m21:48:02.651739 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.not_null_stg_eltool__customers_customer_id.4bd58324df, now model.sde_dbt_tutorial.customer_orders)
+[0m21:48:02.652737 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.customer_orders
+[0m21:48:02.662737 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.customer_orders"
+[0m21:48:02.665737 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.customer_orders
+[0m21:48:02.667737 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.customer_orders
+[0m21:48:02.669738 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss
+[0m21:48:02.671737 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.customer_orders, now test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss)
+[0m21:48:02.672736 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss
+[0m21:48:02.681739 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss"
+[0m21:48:02.684737 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss
+[0m21:48:02.687737 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss
+[0m21:48:02.688737 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m21:48:02.690736 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.assert_customer_dimension_has_no_row_loss, now test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d)
+[0m21:48:02.691737 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m21:48:02.700734 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d"
+[0m21:48:02.702737 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m21:48:02.704738 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d
+[0m21:48:02.705737 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.order_status_pivot
+[0m21:48:02.706736 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.not_null_dim_customers_customer_id.dd91cd1c8d, now model.sde_dbt_tutorial.order_status_pivot)
+[0m21:48:02.707736 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.order_status_pivot
+[0m21:48:02.736735 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:48:02.737737 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: BEGIN
+[0m21:48:02.738736 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:48:02.747740 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:48:02.748738 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:48:02.749737 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+select
+                order_status as value
+
+            from "dbt"."main"."customer_orders"
+
+            
+
+            group by order_status
+            order by count(*) desc
+
+            
+
+        
+[0m21:48:02.753781 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m21:48:02.770739 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.order_status_pivot"
+[0m21:48:02.772739 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.order_status_pivot
+[0m21:48:02.773736 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: ROLLBACK
+[0m21:48:02.774737 [debug] [Thread-1 (]: Failed to rollback 'model.sde_dbt_tutorial.order_status_pivot'
+[0m21:48:02.775742 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: Close
+[0m21:48:02.778736 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.order_status_pivot
+[0m21:48:02.780744 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3
+[0m21:48:02.781739 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.order_status_pivot, now test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3)
+[0m21:48:02.782736 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3
+[0m21:48:02.798743 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3"
+[0m21:48:02.800742 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3
+[0m21:48:02.801740 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3
+[0m21:48:02.802741 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0
+[0m21:48:02.803739 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.accepted_values_customer_orders_order_status__delivered__invoiced__shipped__processing__canceled__unavailable.55819769c3, now test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0)
+[0m21:48:02.804740 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0
+[0m21:48:02.813737 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0"
+[0m21:48:02.815520 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0
+[0m21:48:02.817614 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0
+[0m21:48:02.818576 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc
+[0m21:48:02.819615 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.not_null_customer_orders_customer_id.582e6bcaa0, now test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc)
+[0m21:48:02.820576 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc
+[0m21:48:02.826613 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc"
+[0m21:48:02.828574 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc
+[0m21:48:02.830576 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc
+[0m21:48:02.831574 [debug] [Thread-1 (]: Began running node test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577
+[0m21:48:02.832613 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.sde_dbt_tutorial.unique_customer_orders_order_id.352340f7cc, now test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577)
+[0m21:48:02.833614 [debug] [Thread-1 (]: Began compiling node test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577
+[0m21:48:02.854616 [debug] [Thread-1 (]: Writing injected SQL for node "test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577"
+[0m21:48:02.856573 [debug] [Thread-1 (]: Began executing node test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577
+[0m21:48:02.857574 [debug] [Thread-1 (]: Finished running node test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577
+[0m21:48:02.859575 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:48:02.860577 [debug] [MainThread]: Connection 'list_dbt_snapshots' was properly closed.
+[0m21:48:02.861617 [debug] [MainThread]: Connection 'test.sde_dbt_tutorial.dbt_expectations_expect_column_pair_values_A_to_be_greater_than_B_order_status_pivot_delivered__invoiced__False__order_year_2018.96808e0577' was properly closed.
+[0m21:48:02.867613 [debug] [MainThread]: Command end result
+[0m21:48:03.609573 [debug] [MainThread]: Acquiring new duckdb connection 'generate_catalog'
+[0m21:48:03.610575 [info ] [MainThread]: Building catalog
+[0m21:48:03.634574 [debug] [ThreadPool]: Acquiring new duckdb connection 'dbt.information_schema'
+[0m21:48:03.647574 [debug] [ThreadPool]: Using duckdb connection "dbt.information_schema"
+[0m21:48:03.648574 [debug] [ThreadPool]: On dbt.information_schema: BEGIN
+[0m21:48:03.649576 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:48:03.661572 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:48:03.662573 [debug] [ThreadPool]: Using duckdb connection "dbt.information_schema"
+[0m21:48:03.663577 [debug] [ThreadPool]: On dbt.information_schema: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "dbt.information_schema"} */
+with relations AS (
+      select
+        t.table_name
+        , t.database_name
+        , t.schema_name
+        , 'BASE TABLE' as table_type
+        , t.comment as table_comment
+      from duckdb_tables() t
+      WHERE t.database_name = 'dbt'
+      UNION ALL
+      SELECT v.view_name as table_name
+      , v.database_name
+      , v.schema_name
+      , 'VIEW' as table_type
+      , v.comment as table_comment
+      from duckdb_views() v
+      WHERE v.database_name = 'dbt'
+    )
+    select
+        'dbt' as table_database,
+        r.schema_name as table_schema,
+        r.table_name,
+        r.table_type,
+        r.table_comment,
+        c.column_name,
+        c.column_index as column_index,
+        c.data_type as column_type,
+        c.comment as column_comment,
+        '' as table_owner
+    FROM relations r JOIN duckdb_columns() c ON r.schema_name = c.schema_name AND r.table_name = c.table_name
+    WHERE (upper(r.schema_name) = upper('snapshots') or upper(r.schema_name) = upper('raw_layer') or upper(r.schema_name) = upper('main'))
+    ORDER BY
+        r.schema_name,
+        r.table_name,
+        c.column_index
+[0m21:48:03.754572 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m21:48:03.802571 [debug] [ThreadPool]: On dbt.information_schema: ROLLBACK
+[0m21:48:03.803578 [debug] [ThreadPool]: Failed to rollback 'dbt.information_schema'
+[0m21:48:03.804574 [debug] [ThreadPool]: On dbt.information_schema: Close
+[0m21:48:03.989576 [info ] [MainThread]: Catalog written to D:\DataEngineering_Projects\simple_dbt_project\target\catalog.json
+[0m21:48:03.993575 [debug] [MainThread]: Command `dbt docs generate` succeeded at 21:48:03.992577 after 3.67 seconds
+[0m21:48:03.994575 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m21:48:03.995578 [debug] [MainThread]: Connection 'dbt.information_schema' was properly closed.
+[0m21:48:03.997576 [debug] [MainThread]: Flushing usage events
+
+
+============================== 21:48:12.641611 | ac189754-edd8-4d01-8572-37ca8244334f ==============================
+[0m21:48:12.641611 [info ] [MainThread]: Running with dbt=1.8.1
+[0m21:48:12.643612 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'version_check': 'True', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs serve', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m22:25:15.088620 [error] [MainThread]: Encountered an error:
+
+[0m22:25:15.236502 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 247, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\main.py", line 302, in docs_serve
+    results = task.run()
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\docs\serve.py", line 28, in run
+    httpd.serve_forever()
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\selectors.py", line 324, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\Omkar\AppData\Local\Programs\Python\Python310\lib\selectors.py", line 315, in _select
+    r, w, x = select.select(r, w, w, timeout)
+KeyboardInterrupt
+
+[0m22:25:15.238311 [debug] [MainThread]: Command `dbt docs serve` failed at 22:25:15.238311 after 2162.60 seconds
+[0m22:25:15.239311 [debug] [MainThread]: Flushing usage events
+
+
+============================== 22:25:25.995961 | 7cdf81d4-6a24-4736-8639-3dfd96a23b09 ==============================
+[0m22:25:25.995961 [info ] [MainThread]: Running with dbt=1.8.1
+[0m22:25:25.996967 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'debug': 'False', 'version_check': 'True', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt clean', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m22:25:26.221795 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+        The default package install path has changed from `dbt_modules` to
+`dbt_packages`.         Please update `clean-targets` in `dbt_project.yml` and
+check `.gitignore` as well.         Or, set `packages-install-path: dbt_modules`
+if you'd like to keep the current value.
+[0m22:25:26.239755 [debug] [MainThread]: Command `dbt clean` succeeded at 22:25:26.239755 after 0.58 seconds
+[0m22:25:26.240798 [debug] [MainThread]: Flushing usage events
+
+
+============================== 22:26:28.173645 | d3f61c43-7a89-4151-86c2-2048af7489a9 ==============================
+[0m22:26:28.173645 [info ] [MainThread]: Running with dbt=1.8.1
+[0m22:26:28.175647 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt snapshot', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'False'}
+[0m22:26:28.606647 [info ] [MainThread]: Registered adapter: duckdb=1.8.1
+[0m22:26:28.692985 [debug] [MainThread]: checksum: ebc509fb14e151ea268e89b60fd5abf912ed99129f87516462718fa2f14f4838, vars: {}, profile: , target: , version: 1.8.1
+[0m22:26:28.695951 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:26:36.379435 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m22:26:36.543475 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'non_existent_table' in the 'models' section of file 'models\marts\marketing\marketing.yml'
+[0m22:26:36.791437 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.sde_dbt_tutorial.unique_non_existent_table_non_existent.1fe469feba' (models\marts\marketing\marketing.yml) depends on a node named 'non_existent_table' in package '' which was not found
+[0m22:26:37.325123 [info ] [MainThread]: Found 7 models, 1 snapshot, 11 data tests, 3 sources, 1 exposure, 756 macros
+[0m22:26:37.331089 [info ] [MainThread]: 
+[0m22:26:37.332086 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m22:26:37.335085 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt'
+[0m22:26:43.500806 [debug] [ThreadPool]: Using duckdb connection "list_dbt"
+[0m22:26:43.501813 [debug] [ThreadPool]: On list_dbt: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where catalog_name = '"dbt"'
+    
+  
+  
+[0m22:26:43.502807 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:26:43.515918 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:43.517957 [debug] [ThreadPool]: On list_dbt: Close
+[0m22:26:43.520920 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt, now create_dbt_snapshots)
+[0m22:26:43.521925 [debug] [ThreadPool]: Creating schema "database: "dbt"
+schema: "snapshots"
+"
+[0m22:26:43.532941 [debug] [ThreadPool]: Using duckdb connection "create_dbt_snapshots"
+[0m22:26:43.533918 [debug] [ThreadPool]: On create_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "create_dbt_snapshots"} */
+
+    
+        select type from duckdb_databases()
+        where database_name='dbt'
+        and type='sqlite'
+    
+  
+[0m22:26:43.534919 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:26:43.544924 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:43.546922 [debug] [ThreadPool]: Using duckdb connection "create_dbt_snapshots"
+[0m22:26:43.547922 [debug] [ThreadPool]: On create_dbt_snapshots: BEGIN
+[0m22:26:43.548920 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:43.549918 [debug] [ThreadPool]: Using duckdb connection "create_dbt_snapshots"
+[0m22:26:43.550917 [debug] [ThreadPool]: On create_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "create_dbt_snapshots"} */
+
+    
+    
+        create schema if not exists "dbt"."snapshots"
+    
+[0m22:26:43.551916 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:43.552919 [debug] [ThreadPool]: On create_dbt_snapshots: COMMIT
+[0m22:26:43.553960 [debug] [ThreadPool]: Using duckdb connection "create_dbt_snapshots"
+[0m22:26:43.554916 [debug] [ThreadPool]: On create_dbt_snapshots: COMMIT
+[0m22:26:43.555917 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:43.557919 [debug] [ThreadPool]: On create_dbt_snapshots: Close
+[0m22:26:43.569959 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt_snapshots'
+[0m22:26:43.579959 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m22:26:43.580958 [debug] [ThreadPool]: On list_dbt_snapshots: BEGIN
+[0m22:26:43.581915 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:26:43.589956 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:43.590961 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m22:26:43.591919 [debug] [ThreadPool]: On list_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_snapshots"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'snapshots'
+    and table_catalog = 'dbt'
+  
+[0m22:26:43.632956 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:43.642957 [debug] [ThreadPool]: On list_dbt_snapshots: ROLLBACK
+[0m22:26:43.656918 [debug] [ThreadPool]: Failed to rollback 'list_dbt_snapshots'
+[0m22:26:43.657960 [debug] [ThreadPool]: On list_dbt_snapshots: Close
+[0m22:26:43.661921 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_snapshots, now list_dbt_main)
+[0m22:26:43.665920 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m22:26:43.666922 [debug] [ThreadPool]: On list_dbt_main: BEGIN
+[0m22:26:43.666922 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:26:43.675925 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:43.675925 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m22:26:43.677916 [debug] [ThreadPool]: On list_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_main"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'main'
+    and table_catalog = 'dbt'
+  
+[0m22:26:43.718941 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:43.729921 [debug] [ThreadPool]: On list_dbt_main: ROLLBACK
+[0m22:26:43.729921 [debug] [ThreadPool]: Failed to rollback 'list_dbt_main'
+[0m22:26:43.730922 [debug] [ThreadPool]: On list_dbt_main: Close
+[0m22:26:43.735920 [debug] [MainThread]: Using duckdb connection "master"
+[0m22:26:43.736920 [debug] [MainThread]: On master: BEGIN
+[0m22:26:43.737921 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:26:43.745920 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m22:26:43.746921 [debug] [MainThread]: On master: COMMIT
+[0m22:26:43.747920 [debug] [MainThread]: Using duckdb connection "master"
+[0m22:26:43.748958 [debug] [MainThread]: On master: COMMIT
+[0m22:26:43.749959 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m22:26:43.750952 [debug] [MainThread]: On master: Close
+[0m22:26:43.752923 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m22:26:43.753922 [info ] [MainThread]: 
+[0m22:26:43.758958 [debug] [Thread-1 (]: Began running node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m22:26:43.759960 [info ] [Thread-1 (]: 1 of 1 START snapshot snapshots.customers_snapshot ............................. [RUN]
+[0m22:26:43.760918 [debug] [Thread-1 (]: Acquiring new duckdb connection 'snapshot.sde_dbt_tutorial.customers_snapshot'
+[0m22:26:43.761924 [debug] [Thread-1 (]: Began compiling node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m22:26:43.773956 [debug] [Thread-1 (]: Began executing node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m22:26:43.837956 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:43.838959 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: BEGIN
+[0m22:26:43.839918 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m22:26:43.849919 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:43.850919 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:43.850919 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from system.information_schema.columns
+      where table_name = 'customers_snapshot'
+      
+      and table_schema = 'snapshots'
+      
+      
+      and table_catalog = 'dbt'
+      
+      order by ordinal_position
+
+  
+[0m22:26:43.910918 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:43.945957 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:43.946918 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+
+        
+  
+    
+    
+
+    create  table
+      "customers_snapshot__dbt_tmp20240730222643925958"
+  
+    as (
+      with snapshot_query as (
+
+        
+
+
+
+select * from './raw_data/customers.csv'
+
+
+    ),
+
+    snapshotted_data as (
+
+        select *,
+            customer_id as dbt_unique_key
+
+        from "dbt"."snapshots"."customers_snapshot"
+        where dbt_valid_to is null
+
+    ),
+
+    insertions_source_data as (
+
+        select
+            *,
+            customer_id as dbt_unique_key,
+            datetime_updated as dbt_updated_at,
+            datetime_updated as dbt_valid_from,
+            nullif(datetime_updated, datetime_updated) as dbt_valid_to,
+            md5(coalesce(cast(customer_id as varchar ), '')
+         || '|' || coalesce(cast(datetime_updated as varchar ), '')
+        ) as dbt_scd_id
+
+        from snapshot_query
+    ),
+
+    updates_source_data as (
+
+        select
+            *,
+            customer_id as dbt_unique_key,
+            datetime_updated as dbt_updated_at,
+            datetime_updated as dbt_valid_from,
+            datetime_updated as dbt_valid_to
+
+        from snapshot_query
+    ),
+
+    insertions as (
+
+        select
+            'insert' as dbt_change_type,
+            source_data.*
+
+        from insertions_source_data as source_data
+        left outer join snapshotted_data on snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+        where snapshotted_data.dbt_unique_key is null
+           or (
+                snapshotted_data.dbt_unique_key is not null
+            and (
+                (snapshotted_data.dbt_valid_from < source_data.datetime_updated)
+            )
+        )
+
+    ),
+
+    updates as (
+
+        select
+            'update' as dbt_change_type,
+            source_data.*,
+            snapshotted_data.dbt_scd_id
+
+        from updates_source_data as source_data
+        join snapshotted_data on snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+        where (
+            (snapshotted_data.dbt_valid_from < source_data.datetime_updated)
+        )
+    )
+
+    select * from insertions
+    union all
+    select * from updates
+
+    );
+  
+  
+    
+[0m22:26:44.013917 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:44.018957 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:44.019958 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from system.information_schema.columns
+      where table_name = 'customers_snapshot__dbt_tmp20240730222643925958'
+      
+      
+      order by ordinal_position
+
+  
+[0m22:26:44.036956 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:44.042957 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:44.043918 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from system.information_schema.columns
+      where table_name = 'customers_snapshot'
+      
+      and table_schema = 'snapshots'
+      
+      
+      and table_catalog = 'dbt'
+      
+      order by ordinal_position
+
+  
+[0m22:26:44.061918 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:44.066957 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:44.067916 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from system.information_schema.columns
+      where table_name = 'customers_snapshot__dbt_tmp20240730222643925958'
+      
+      
+      order by ordinal_position
+
+  
+[0m22:26:44.084917 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:44.091920 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:44.092920 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from system.information_schema.columns
+      where table_name = 'customers_snapshot'
+      
+      and table_schema = 'snapshots'
+      
+      
+      and table_catalog = 'dbt'
+      
+      order by ordinal_position
+
+  
+[0m22:26:44.110919 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:44.180957 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:44.181958 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from system.information_schema.columns
+      where table_name = 'customers_snapshot__dbt_tmp20240730222643925958'
+      
+      
+      order by ordinal_position
+
+  
+[0m22:26:44.199915 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:44.207920 [debug] [Thread-1 (]: Writing runtime sql for node "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:45.230096 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:45.234145 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+
+      update "dbt"."snapshots"."customers_snapshot" as DBT_INTERNAL_TARGET
+    set dbt_valid_to = DBT_INTERNAL_SOURCE.dbt_valid_to
+    from "customers_snapshot__dbt_tmp20240730222643925958" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_scd_id::text = DBT_INTERNAL_TARGET.dbt_scd_id::text
+      and DBT_INTERNAL_SOURCE.dbt_change_type::text in ('update'::text, 'delete'::text)
+      and DBT_INTERNAL_TARGET.dbt_valid_to is null;
+
+    insert into "dbt"."snapshots"."customers_snapshot" ("customer_id", "zipcode", "city", "state_code", "datetime_created", "datetime_updated", "dbt_updated_at", "dbt_valid_from", "dbt_valid_to", "dbt_scd_id")
+    select DBT_INTERNAL_SOURCE."customer_id",DBT_INTERNAL_SOURCE."zipcode",DBT_INTERNAL_SOURCE."city",DBT_INTERNAL_SOURCE."state_code",DBT_INTERNAL_SOURCE."datetime_created",DBT_INTERNAL_SOURCE."datetime_updated",DBT_INTERNAL_SOURCE."dbt_updated_at",DBT_INTERNAL_SOURCE."dbt_valid_from",DBT_INTERNAL_SOURCE."dbt_valid_to",DBT_INTERNAL_SOURCE."dbt_scd_id"
+    from "customers_snapshot__dbt_tmp20240730222643925958" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_change_type::text = 'insert'::text;
+
+
+  
+[0m22:26:45.248099 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:45.278089 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: COMMIT
+[0m22:26:45.279085 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:45.280086 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: COMMIT
+[0m22:26:45.668362 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:45.701376 [debug] [Thread-1 (]: Using duckdb connection "snapshot.sde_dbt_tutorial.customers_snapshot"
+[0m22:26:45.703334 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "snapshot.sde_dbt_tutorial.customers_snapshot"} */
+drop table if exists "customers_snapshot__dbt_tmp20240730222643925958" cascade
+[0m22:26:46.168501 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:46.183513 [debug] [Thread-1 (]: On snapshot.sde_dbt_tutorial.customers_snapshot: Close
+[0m22:26:46.563058 [info ] [Thread-1 (]: 1 of 1 OK snapshotted snapshots.customers_snapshot ............................. [[32mOK[0m in 2.79s]
+[0m22:26:46.567057 [debug] [Thread-1 (]: Finished running node snapshot.sde_dbt_tutorial.customers_snapshot
+[0m22:26:46.572008 [debug] [MainThread]: Using duckdb connection "master"
+[0m22:26:46.576010 [debug] [MainThread]: On master: BEGIN
+[0m22:26:46.579008 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m22:26:46.605000 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m22:26:46.606045 [debug] [MainThread]: On master: COMMIT
+[0m22:26:46.607040 [debug] [MainThread]: Using duckdb connection "master"
+[0m22:26:46.608040 [debug] [MainThread]: On master: COMMIT
+[0m22:26:46.609040 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m22:26:46.610999 [debug] [MainThread]: On master: Close
+[0m22:26:46.612997 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:26:46.613997 [debug] [MainThread]: Connection 'create_dbt_snapshots' was properly closed.
+[0m22:26:46.614999 [debug] [MainThread]: Connection 'list_dbt_main' was properly closed.
+[0m22:26:46.615996 [debug] [MainThread]: Connection 'snapshot.sde_dbt_tutorial.customers_snapshot' was properly closed.
+[0m22:26:46.615996 [info ] [MainThread]: 
+[0m22:26:46.617999 [info ] [MainThread]: Finished running 1 snapshot in 0 hours 0 minutes and 9.28 seconds (9.28s).
+[0m22:26:46.619998 [debug] [MainThread]: Command end result
+[0m22:26:46.691999 [info ] [MainThread]: 
+[0m22:26:46.692998 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:26:46.694998 [info ] [MainThread]: 
+[0m22:26:46.695998 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m22:26:46.698005 [debug] [MainThread]: Command `dbt snapshot` succeeded at 22:26:46.698005 after 18.64 seconds
+[0m22:26:46.699002 [debug] [MainThread]: Flushing usage events
+
+
+============================== 22:26:55.386864 | 55084ce5-858d-43bc-88cc-18c1c0e1d5b7 ==============================
+[0m22:26:55.386864 [info ] [MainThread]: Running with dbt=1.8.1
+[0m22:26:55.387859 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'D:\\DataEngineering_Projects\\simple_dbt_project\\logs', 'version_check': 'True', 'profiles_dir': 'D:\\DataEngineering_Projects\\simple_dbt_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m22:26:55.795860 [info ] [MainThread]: Registered adapter: duckdb=1.8.1
+[0m22:26:55.835860 [debug] [MainThread]: checksum: ebc509fb14e151ea268e89b60fd5abf912ed99129f87516462718fa2f14f4838, vars: {}, profile: , target: , version: 1.8.1
+[0m22:26:56.272900 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m22:26:56.273897 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m22:26:56.686860 [info ] [MainThread]: Found 7 models, 1 snapshot, 11 data tests, 3 sources, 1 exposure, 756 macros
+[0m22:26:56.689859 [info ] [MainThread]: 
+[0m22:26:56.691860 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m22:26:56.700861 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt'
+[0m22:26:56.805866 [debug] [ThreadPool]: Using duckdb connection "list_dbt"
+[0m22:26:56.806863 [debug] [ThreadPool]: On list_dbt: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where catalog_name = '"dbt"'
+    
+  
+  
+[0m22:26:56.807860 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:26:56.819861 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:56.821860 [debug] [ThreadPool]: On list_dbt: Close
+[0m22:26:56.824865 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt, now create_dbt_main)
+[0m22:26:56.826860 [debug] [ThreadPool]: Creating schema "database: "dbt"
+schema: "main"
+"
+[0m22:26:56.836857 [debug] [ThreadPool]: Using duckdb connection "create_dbt_main"
+[0m22:26:56.837859 [debug] [ThreadPool]: On create_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "create_dbt_main"} */
+
+    
+        select type from duckdb_databases()
+        where database_name='dbt'
+        and type='sqlite'
+    
+  
+[0m22:26:56.838860 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:26:56.848861 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:56.850860 [debug] [ThreadPool]: Using duckdb connection "create_dbt_main"
+[0m22:26:56.850860 [debug] [ThreadPool]: On create_dbt_main: BEGIN
+[0m22:26:56.851862 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:56.852860 [debug] [ThreadPool]: Using duckdb connection "create_dbt_main"
+[0m22:26:56.853858 [debug] [ThreadPool]: On create_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "create_dbt_main"} */
+
+    
+    
+        create schema if not exists "dbt"."main"
+    
+[0m22:26:56.854860 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:56.856859 [debug] [ThreadPool]: On create_dbt_main: COMMIT
+[0m22:26:56.856859 [debug] [ThreadPool]: Using duckdb connection "create_dbt_main"
+[0m22:26:56.857858 [debug] [ThreadPool]: On create_dbt_main: COMMIT
+[0m22:26:56.858858 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:56.859862 [debug] [ThreadPool]: On create_dbt_main: Close
+[0m22:26:56.864860 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_dbt_main'
+[0m22:26:56.919857 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m22:26:56.920858 [debug] [ThreadPool]: On list_dbt_main: BEGIN
+[0m22:26:56.921860 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:26:56.930858 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:56.931860 [debug] [ThreadPool]: Using duckdb connection "list_dbt_main"
+[0m22:26:56.931860 [debug] [ThreadPool]: On list_dbt_main: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_main"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'main'
+    and table_catalog = 'dbt'
+  
+[0m22:26:56.975857 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:56.984858 [debug] [ThreadPool]: On list_dbt_main: ROLLBACK
+[0m22:26:56.986864 [debug] [ThreadPool]: Failed to rollback 'list_dbt_main'
+[0m22:26:56.987860 [debug] [ThreadPool]: On list_dbt_main: Close
+[0m22:26:56.990857 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_main, now list_dbt_snapshots)
+[0m22:26:56.997859 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m22:26:56.998860 [debug] [ThreadPool]: On list_dbt_snapshots: BEGIN
+[0m22:26:56.999859 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:26:57.009861 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:57.010899 [debug] [ThreadPool]: Using duckdb connection "list_dbt_snapshots"
+[0m22:26:57.011860 [debug] [ThreadPool]: On list_dbt_snapshots: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "connection_name": "list_dbt_snapshots"} */
+select
+      'dbt' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where table_schema = 'snapshots'
+    and table_catalog = 'dbt'
+  
+[0m22:26:57.055859 [debug] [ThreadPool]: SQL status: OK in 0.0 seconds
+[0m22:26:57.066859 [debug] [ThreadPool]: On list_dbt_snapshots: ROLLBACK
+[0m22:26:57.067862 [debug] [ThreadPool]: Failed to rollback 'list_dbt_snapshots'
+[0m22:26:57.068861 [debug] [ThreadPool]: On list_dbt_snapshots: Close
+[0m22:26:57.072860 [debug] [MainThread]: Using duckdb connection "master"
+[0m22:26:57.073860 [debug] [MainThread]: On master: BEGIN
+[0m22:26:57.074860 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:26:57.083858 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m22:26:57.084858 [debug] [MainThread]: On master: COMMIT
+[0m22:26:57.085859 [debug] [MainThread]: Using duckdb connection "master"
+[0m22:26:57.086858 [debug] [MainThread]: On master: COMMIT
+[0m22:26:57.087860 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m22:26:57.089861 [debug] [MainThread]: On master: Close
+[0m22:26:57.091859 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m22:26:57.093861 [info ] [MainThread]: 
+[0m22:26:57.098858 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.stg_eltool__customers
+[0m22:26:57.099859 [info ] [Thread-1 (]: 1 of 7 START sql view model main.stg_eltool__customers ......................... [RUN]
+[0m22:26:57.101861 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.sde_dbt_tutorial.stg_eltool__customers'
+[0m22:26:57.102861 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.stg_eltool__customers
+[0m22:26:57.116860 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m22:26:57.119861 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.stg_eltool__customers
+[0m22:26:57.182862 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m22:26:57.186860 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m22:26:57.188861 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: BEGIN
+[0m22:26:57.191861 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m22:26:57.206857 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:57.207858 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m22:26:57.208859 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__customers"} */
+
+  
+  create view "dbt"."main"."stg_eltool__customers__dbt_tmp" as (
+    with source as (
+    select *
+    from "dbt"."snapshots"."customers_snapshot"
+),
+
+renamed as (
+    select
+        customer_id,
+        zipcode,
+        city,
+        state_code,
+        datetime_created::TIMESTAMP as datetime_created,
+        datetime_updated::TIMESTAMP as datetime_updated,
+        dbt_valid_from,
+        dbt_valid_to
+    from source
+)
+
+select *
+from renamed
+  );
+
+[0m22:26:57.213861 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:57.224864 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m22:26:57.227906 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__customers"} */
+alter view "dbt"."main"."stg_eltool__customers" rename to "stg_eltool__customers__dbt_backup"
+[0m22:26:57.229861 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:57.235858 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m22:26:57.236860 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__customers"} */
+alter view "dbt"."main"."stg_eltool__customers__dbt_tmp" rename to "stg_eltool__customers"
+[0m22:26:57.237858 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:57.265860 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: COMMIT
+[0m22:26:57.266859 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m22:26:57.267860 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: COMMIT
+[0m22:26:58.077657 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m22:26:58.089652 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__customers"
+[0m22:26:58.090654 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__customers"} */
+drop view if exists "dbt"."main"."stg_eltool__customers__dbt_backup" cascade
+[0m22:26:58.134513 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:58.155503 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__customers: Close
+[0m22:26:58.269500 [info ] [Thread-1 (]: 1 of 7 OK created sql view model main.stg_eltool__customers .................... [[32mOK[0m in 1.16s]
+[0m22:26:58.273503 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.stg_eltool__customers
+[0m22:26:58.274501 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.stg_eltool__orders
+[0m22:26:58.278503 [info ] [Thread-1 (]: 2 of 7 START sql view model main.stg_eltool__orders ............................ [RUN]
+[0m22:26:58.281500 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.stg_eltool__customers, now model.sde_dbt_tutorial.stg_eltool__orders)
+[0m22:26:58.282502 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.stg_eltool__orders
+[0m22:26:58.292500 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m22:26:58.297499 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.stg_eltool__orders
+[0m22:26:58.303535 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m22:26:58.305500 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m22:26:58.307502 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: BEGIN
+[0m22:26:58.308499 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:26:58.330500 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:58.331501 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m22:26:58.331501 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__orders"} */
+
+  
+  create view "dbt"."main"."stg_eltool__orders__dbt_tmp" as (
+    with source as (
+    select *
+    from './raw_data/orders.csv'
+),
+
+renamed as (
+    select
+        order_id,
+        customer_id,
+        order_status,
+        order_purchase_timestamp::TIMESTAMP AS order_purchase_timestamp,
+        order_approved_at::TIMESTAMP AS order_approved_at,
+        order_delivered_carrier_date::TIMESTAMP AS order_delivered_carrier_date,
+        order_delivered_customer_date::TIMESTAMP AS order_delivered_customer_date,
+        order_estimated_delivery_date::TIMESTAMP AS order_estimated_delivery_date
+    from source
+)
+
+select *
+from renamed
+  );
+
+[0m22:26:59.114503 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m22:26:59.120497 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m22:26:59.121498 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__orders"} */
+alter view "dbt"."main"."stg_eltool__orders" rename to "stg_eltool__orders__dbt_backup"
+[0m22:26:59.122498 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:59.130500 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m22:26:59.131498 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__orders"} */
+alter view "dbt"."main"."stg_eltool__orders__dbt_tmp" rename to "stg_eltool__orders"
+[0m22:26:59.132499 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:26:59.135497 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: COMMIT
+[0m22:26:59.136498 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m22:26:59.137503 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: COMMIT
+[0m22:27:00.122618 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m22:27:00.127620 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__orders"
+[0m22:27:00.129624 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__orders"} */
+drop view if exists "dbt"."main"."stg_eltool__orders__dbt_backup" cascade
+[0m22:27:00.207618 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:00.209619 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__orders: Close
+[0m22:27:00.336769 [info ] [Thread-1 (]: 2 of 7 OK created sql view model main.stg_eltool__orders ....................... [[32mOK[0m in 2.06s]
+[0m22:27:00.346772 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.stg_eltool__orders
+[0m22:27:00.347769 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.stg_eltool__state
+[0m22:27:00.349772 [info ] [Thread-1 (]: 3 of 7 START sql view model main.stg_eltool__state ............................. [RUN]
+[0m22:27:00.363772 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.stg_eltool__orders, now model.sde_dbt_tutorial.stg_eltool__state)
+[0m22:27:00.364772 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.stg_eltool__state
+[0m22:27:00.372769 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.stg_eltool__state"
+[0m22:27:00.374771 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.stg_eltool__state
+[0m22:27:00.383768 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.stg_eltool__state"
+[0m22:27:00.404770 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m22:27:00.405769 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: BEGIN
+[0m22:27:00.405769 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:27:00.423770 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:00.424772 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m22:27:00.425771 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__state"} */
+
+  
+  create view "dbt"."main"."stg_eltool__state__dbt_tmp" as (
+    with source as (
+    select *
+    from './raw_data/state.csv'
+),
+
+renamed as (
+    select
+        state_id::INT as state_id,
+        state_code::VARCHAR(2) as state_code,
+        state_name::VARCHAR(30) as state_name
+    from source
+)
+
+select *
+from renamed
+  );
+
+[0m22:27:00.439769 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:00.448771 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m22:27:00.449771 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__state"} */
+alter view "dbt"."main"."stg_eltool__state" rename to "stg_eltool__state__dbt_backup"
+[0m22:27:00.450770 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:00.456768 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m22:27:00.456768 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__state"} */
+alter view "dbt"."main"."stg_eltool__state__dbt_tmp" rename to "stg_eltool__state"
+[0m22:27:00.458770 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:00.463773 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: COMMIT
+[0m22:27:00.464772 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m22:27:00.464772 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: COMMIT
+[0m22:27:00.501777 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:00.515775 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.stg_eltool__state"
+[0m22:27:00.516775 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.stg_eltool__state"} */
+drop view if exists "dbt"."main"."stg_eltool__state__dbt_backup" cascade
+[0m22:27:00.530776 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:00.537815 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.stg_eltool__state: Close
+[0m22:27:00.596809 [info ] [Thread-1 (]: 3 of 7 OK created sql view model main.stg_eltool__state ........................ [[32mOK[0m in 0.23s]
+[0m22:27:00.598813 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.stg_eltool__state
+[0m22:27:00.599775 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.fct_orders
+[0m22:27:00.601772 [info ] [Thread-1 (]: 4 of 7 START sql table model main.fct_orders ................................... [RUN]
+[0m22:27:00.603777 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.stg_eltool__state, now model.sde_dbt_tutorial.fct_orders)
+[0m22:27:00.604776 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.fct_orders
+[0m22:27:00.612786 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.fct_orders"
+[0m22:27:00.614774 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.fct_orders
+[0m22:27:00.646810 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.fct_orders"
+[0m22:27:00.647816 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m22:27:00.648775 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: BEGIN
+[0m22:27:00.649775 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:27:00.665768 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:00.666769 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m22:27:00.667771 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.fct_orders"} */
+
+  
+    
+    
+
+    create  table
+      "dbt"."main"."fct_orders__dbt_tmp"
+  
+    as (
+      with orders as (
+    select *
+    from "dbt"."main"."stg_eltool__orders"
+)
+
+select * from orders
+    );
+  
+  
+[0m22:27:01.721771 [debug] [Thread-1 (]: SQL status: OK in 1.0 seconds
+[0m22:27:01.727771 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m22:27:01.728771 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.fct_orders"} */
+alter table "dbt"."main"."fct_orders" rename to "fct_orders__dbt_backup"
+[0m22:27:01.729771 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:01.734771 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m22:27:01.735772 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.fct_orders"} */
+alter table "dbt"."main"."fct_orders__dbt_tmp" rename to "fct_orders"
+[0m22:27:01.736772 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:01.781771 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: COMMIT
+[0m22:27:01.782770 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m22:27:01.785776 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: COMMIT
+[0m22:27:01.918773 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:01.930773 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.fct_orders"
+[0m22:27:01.938770 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.fct_orders"} */
+drop table if exists "dbt"."main"."fct_orders__dbt_backup" cascade
+[0m22:27:01.990771 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:01.999771 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.fct_orders: Close
+[0m22:27:02.098772 [info ] [Thread-1 (]: 4 of 7 OK created sql table model main.fct_orders .............................. [[32mOK[0m in 1.50s]
+[0m22:27:02.102772 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.fct_orders
+[0m22:27:02.103772 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.dim_customers
+[0m22:27:02.107772 [info ] [Thread-1 (]: 5 of 7 START sql table model main.dim_customers ................................ [RUN]
+[0m22:27:02.110773 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.fct_orders, now model.sde_dbt_tutorial.dim_customers)
+[0m22:27:02.113771 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.dim_customers
+[0m22:27:02.124780 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.dim_customers"
+[0m22:27:02.127771 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.dim_customers
+[0m22:27:02.139772 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.dim_customers"
+[0m22:27:02.142772 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m22:27:02.144770 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: BEGIN
+[0m22:27:02.145770 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:27:02.171770 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.172770 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m22:27:02.173772 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.dim_customers"} */
+
+  
+    
+    
+
+    create  table
+      "dbt"."main"."dim_customers__dbt_tmp"
+  
+    as (
+      with customers as (
+    select *
+    from "dbt"."main"."stg_eltool__customers"
+),
+
+state as (
+    select *
+    from "dbt"."main"."stg_eltool__state"
+)
+
+select
+    c.customer_id,
+    c.zipcode,
+    c.city,
+    c.state_code,
+    s.state_name,
+    c.datetime_created,
+    c.datetime_updated,
+    c.dbt_valid_from::TIMESTAMP as valid_from,
+    case
+        when c.dbt_valid_to is NULL then '9999-12-31'::TIMESTAMP
+        else c.dbt_valid_to::TIMESTAMP
+    end as valid_to
+from customers as c
+inner join state as s on c.state_code = s.state_code
+    );
+  
+  
+[0m22:27:02.184770 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.197774 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m22:27:02.200773 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.dim_customers"} */
+alter table "dbt"."main"."dim_customers" rename to "dim_customers__dbt_backup"
+[0m22:27:02.204773 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.214770 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m22:27:02.215770 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.dim_customers"} */
+alter table "dbt"."main"."dim_customers__dbt_tmp" rename to "dim_customers"
+[0m22:27:02.216770 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.219769 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: COMMIT
+[0m22:27:02.220768 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m22:27:02.221770 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: COMMIT
+[0m22:27:02.261767 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.266771 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.dim_customers"
+[0m22:27:02.267771 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.dim_customers"} */
+drop table if exists "dbt"."main"."dim_customers__dbt_backup" cascade
+[0m22:27:02.289770 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.291773 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.dim_customers: Close
+[0m22:27:02.753116 [info ] [Thread-1 (]: 5 of 7 OK created sql table model main.dim_customers ........................... [[32mOK[0m in 0.64s]
+[0m22:27:02.755115 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.dim_customers
+[0m22:27:02.756114 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.customer_orders
+[0m22:27:02.758118 [info ] [Thread-1 (]: 6 of 7 START sql view model main.customer_orders ............................... [RUN]
+[0m22:27:02.760117 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.dim_customers, now model.sde_dbt_tutorial.customer_orders)
+[0m22:27:02.761116 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.customer_orders
+[0m22:27:02.770117 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.customer_orders"
+[0m22:27:02.772115 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.customer_orders
+[0m22:27:02.781112 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.customer_orders"
+[0m22:27:02.782113 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m22:27:02.783115 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: BEGIN
+[0m22:27:02.784114 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:27:02.800112 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.801114 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m22:27:02.801114 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.customer_orders"} */
+
+  
+  create view "dbt"."main"."customer_orders__dbt_tmp" as (
+    with orders as (
+    select *
+    from "dbt"."main"."fct_orders"
+),
+
+customers as (
+    select *
+    from "dbt"."main"."dim_customers"
+)
+
+select
+    o.order_id,
+    o.customer_id,
+    o.order_status,
+    o.order_purchase_timestamp,
+    o.order_approved_at,
+    o.order_delivered_carrier_date,
+    o.order_delivered_customer_date,
+    o.order_estimated_delivery_date,
+    c.zipcode as customer_zipcode,
+    c.city as customer_city,
+    c.state_code as customer_state_code,
+    c.state_name as customer_state_name
+from orders as o
+inner join customers as c on
+    o.customer_id = c.customer_id
+    and o.order_purchase_timestamp >= c.valid_from
+    and o.order_purchase_timestamp <= c.valid_to
+  );
+
+[0m22:27:02.803114 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.809112 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m22:27:02.810115 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.customer_orders"} */
+alter view "dbt"."main"."customer_orders" rename to "customer_orders__dbt_backup"
+[0m22:27:02.812115 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.819115 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m22:27:02.819115 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.customer_orders"} */
+alter view "dbt"."main"."customer_orders__dbt_tmp" rename to "customer_orders"
+[0m22:27:02.821115 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.823113 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: COMMIT
+[0m22:27:02.824113 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m22:27:02.825116 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: COMMIT
+[0m22:27:02.981318 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:02.986333 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.customer_orders"
+[0m22:27:02.986333 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.customer_orders"} */
+drop view if exists "dbt"."main"."customer_orders__dbt_backup" cascade
+[0m22:27:03.010303 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:03.014357 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.customer_orders: Close
+[0m22:27:03.078268 [info ] [Thread-1 (]: 6 of 7 OK created sql view model main.customer_orders .......................... [[32mOK[0m in 0.32s]
+[0m22:27:03.083252 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.customer_orders
+[0m22:27:03.086259 [debug] [Thread-1 (]: Began running node model.sde_dbt_tutorial.order_status_pivot
+[0m22:27:03.089308 [info ] [Thread-1 (]: 7 of 7 START sql view model main.order_status_pivot ............................ [RUN]
+[0m22:27:03.093257 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.sde_dbt_tutorial.customer_orders, now model.sde_dbt_tutorial.order_status_pivot)
+[0m22:27:03.096255 [debug] [Thread-1 (]: Began compiling node model.sde_dbt_tutorial.order_status_pivot
+[0m22:27:03.129293 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m22:27:03.130251 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: BEGIN
+[0m22:27:03.131250 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m22:27:03.147494 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:03.148453 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m22:27:03.149495 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+select
+                order_status as value
+
+            from "dbt"."main"."customer_orders"
+
+            
+
+            group by order_status
+            order by count(*) desc
+
+            
+
+        
+[0m22:27:03.153453 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:03.170456 [debug] [Thread-1 (]: Writing injected SQL for node "model.sde_dbt_tutorial.order_status_pivot"
+[0m22:27:03.172453 [debug] [Thread-1 (]: Began executing node model.sde_dbt_tutorial.order_status_pivot
+[0m22:27:03.180458 [debug] [Thread-1 (]: Writing runtime sql for node "model.sde_dbt_tutorial.order_status_pivot"
+[0m22:27:03.182457 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m22:27:03.183456 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+
+  
+  create view "dbt"."main"."order_status_pivot__dbt_tmp" as (
+    SELECT
+    EXTRACT(
+        YEAR
+        FROM
+        order_approved_at
+    ) AS order_year, --noqa: CV03
+
+  
+    sum(
+      
+      case
+      when order_status = 'delivered'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "delivered"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'shipped'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "shipped"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'unavailable'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "unavailable"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'canceled'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "canceled"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'invoiced'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "invoiced"
+      
+    
+    ,
+  
+    sum(
+      
+      case
+      when order_status = 'processing'
+        then 1
+      else 0
+      end
+    )
+    
+      
+            as "processing"
+      
+    
+    
+  
+
+FROM
+    "dbt"."main"."customer_orders"
+GROUP BY
+    1
+  );
+
+[0m22:27:03.185458 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:03.191455 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m22:27:03.192452 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+alter view "dbt"."main"."order_status_pivot" rename to "order_status_pivot__dbt_backup"
+[0m22:27:03.193456 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:03.199454 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m22:27:03.200452 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+alter view "dbt"."main"."order_status_pivot__dbt_tmp" rename to "order_status_pivot"
+[0m22:27:03.201456 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:03.204493 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: COMMIT
+[0m22:27:03.205454 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m22:27:03.205454 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: COMMIT
+[0m22:27:03.231455 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:03.236493 [debug] [Thread-1 (]: Using duckdb connection "model.sde_dbt_tutorial.order_status_pivot"
+[0m22:27:03.237496 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: /* {"app": "dbt", "dbt_version": "1.8.1", "profile_name": "sde_dbt_tutorial", "target_name": "dev", "node_id": "model.sde_dbt_tutorial.order_status_pivot"} */
+drop view if exists "dbt"."main"."order_status_pivot__dbt_backup" cascade
+[0m22:27:03.260157 [debug] [Thread-1 (]: SQL status: OK in 0.0 seconds
+[0m22:27:03.262201 [debug] [Thread-1 (]: On model.sde_dbt_tutorial.order_status_pivot: Close
+[0m22:27:03.613293 [info ] [Thread-1 (]: 7 of 7 OK created sql view model main.order_status_pivot ....................... [[32mOK[0m in 0.52s]
+[0m22:27:03.618283 [debug] [Thread-1 (]: Finished running node model.sde_dbt_tutorial.order_status_pivot
+[0m22:27:03.622327 [debug] [MainThread]: Using duckdb connection "master"
+[0m22:27:03.623328 [debug] [MainThread]: On master: BEGIN
+[0m22:27:03.624329 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m22:27:03.643280 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m22:27:03.644327 [debug] [MainThread]: On master: COMMIT
+[0m22:27:03.645300 [debug] [MainThread]: Using duckdb connection "master"
+[0m22:27:03.645300 [debug] [MainThread]: On master: COMMIT
+[0m22:27:03.646322 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m22:27:03.647323 [debug] [MainThread]: On master: Close
+[0m22:27:03.649321 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:27:03.650287 [debug] [MainThread]: Connection 'create_dbt_main' was properly closed.
+[0m22:27:03.651286 [debug] [MainThread]: Connection 'list_dbt_snapshots' was properly closed.
+[0m22:27:03.651286 [debug] [MainThread]: Connection 'model.sde_dbt_tutorial.order_status_pivot' was properly closed.
+[0m22:27:03.652285 [info ] [MainThread]: 
+[0m22:27:03.653340 [info ] [MainThread]: Finished running 5 view models, 2 table models in 0 hours 0 minutes and 6.96 seconds (6.96s).
+[0m22:27:03.656356 [debug] [MainThread]: Command end result
+[0m22:27:03.730357 [info ] [MainThread]: 
+[0m22:27:03.731352 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:27:03.732395 [info ] [MainThread]: 
+[0m22:27:03.733712 [info ] [MainThread]: Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7
+[0m22:27:03.735846 [debug] [MainThread]: Command `dbt run` succeeded at 22:27:03.735846 after 8.47 seconds
+[0m22:27:03.736882 [debug] [MainThread]: Flushing usage events
