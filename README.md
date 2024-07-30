@@ -1,6 +1,6 @@
 ## Demo on CodeSpaces
 
-Here is a demo of how to run this on CodeSpaces:
+click on the image:
 
 [![dbt on codespaces demo](https://img.youtube.com/vi/UEVuIKmx5X0/maxresdefault.jpg)](https://youtu.be/UEVuIKmx5X0)
 
